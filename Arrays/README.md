@@ -36,6 +36,40 @@ Arrays and pointer are two different things (we can check by applying sizeof). T
 * Vector in C++ is a class in STL that represents an array. The advantages of vector over normal arrays are,  
 * We do not need pass size as an extra parameter when we declare a vector i.e,    
   Vectors support dynamic sizes (we do not have to initially specify size of a vector). We can also resize a vector.   
-* Vectors have many in-built function like, removing an element, etc. 
+* Vectors have many in-built function like, removing an element, etc.   
+
+# Multidimensional Arrays in C / C++  
+# https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/  
+In C/C++, we can define multidimensional arrays in simple words as array of arrays.  
+Data in multidimensional arrays are stored in tabular form (in row major order).   
+General form of declaring N-dimensional arrays:  data_type  array_name[size1][size2]....[sizeN];  
+Three dimensional array: int three_d[10][20][30];    
+# Size of multidimensional arrays  
+Total number of elements that can be stored in a multidimensional array can be calculated by multiplying the size of all the dimensions.  
+For example:  
+The array int x[10][20] can store total (10*20) = 200 elements.  
+Similarly array int x[5][10][20] can store total (5*10*20) = 1000 elements.  
+
+* There are two ways in which a Two-Dimensional array can be initialized.  
+    int x[3][4] = {0, 1 ,2 ,3 ,4 , 5 , 6 , 7 , 8 , 9 , 10 , 11}  
+    int x[3][4] = {{0,1,2,3}, {4,5,6,7}, {8,9,10,11}};  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
