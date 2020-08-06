@@ -53,7 +53,21 @@ Similarly array int x[5][10][20] can store total (5*10*20) = 1000 elements.
 * There are two ways in which a Two-Dimensional array can be initialized.  
     int x[3][4] = {0, 1 ,2 ,3 ,4 , 5 , 6 , 7 , 8 , 9 , 10 , 11}  
     int x[3][4] = {{0,1,2,3}, {4,5,6,7}, {8,9,10,11}};  
-
+    
+# Three-Dimensional Array  
+ * Initializing Three-Dimensional Array: Initialization in Three-Dimensional array is same as that of Two-dimensional arrays. The difference is as the number of  
+   dimension increases so the number of nested braces will also increase.  
+ * int x[2][3][4] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,20, 21, 22, 23};  
+ * Better Method:
+   * int x[2][3][4] =   
+   {   
+   { {0,1,2,3}, {4,5,6,7}, {8,9,10,11} },  
+   { {12,13,14,15}, {16,17,18,19}, {20,21,22,23} }  
+   };    
+* Accessing elements in Three-Dimensional Arrays: Accessing elements in Three-Dimensional Arrays is also similar to that of Two-Dimensional Arrays.   
+  The difference is we have to use three loops instead of two loops for one additional dimension in Three-dimensional Arrays.  
+  
+                 
 
 
 
