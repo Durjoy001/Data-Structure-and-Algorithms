@@ -1,6 +1,4 @@
-//https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum/0
-
-                                     /* Time complexity O(n^2)*/
+              /* Time complexity O(n^2)*/
 #include<bits/stdc++.h>
 using namespace std;
 int Total_pairs(int arr[],int n,int k)
@@ -36,8 +34,8 @@ int main()
     }
 }
 
-                                 /* Better Solution**/
-                                 /* Time Complexity O(n)*/
+                          /* Better Solution**/
+                        /* Time Complexity O(n)*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -52,7 +50,7 @@ int Total_pairs(int arr[],int n,int k)
     for(int i=0;i<n;i++)
     {
         ans = ans+m[k-arr[i]];
-        if(k-arr[i]==arr[i])
+        if(k-arr[i]==arr[i])//like if sum=8 and arr[i]=4 than  we have to decrease one from ans because arr[i],arr[i](i is same) is not consider
         {
             ans--;
         }
@@ -78,5 +76,4 @@ int main()
     /* 6 8
        4 6 2 6 2 2 */
 }
-
 
