@@ -37,7 +37,17 @@ and put all smaller elements (smaller than x) before x, and put all greater elem
        Solution of above recurrence is also O(nLogn)  
        
  * Although the worst case time complexity of QuickSort is O(n2) which is more than many other sorting algorithms like Merge Sort and Heap Sort, QuickSort is faster in practice, because its inner loop can be efficiently implemented on most architectures, and in most real-world data. QuickSort can be implemented in different ways by changing the choice of pivot, so that the worst case rarely occurs for a given type of data. However, merge sort is generally considered better when data is huge and stored in external storage.  
- 
+
+# Is QuickSort stable?  
+  * The default implementation is not stable. However any sorting algorithm can be made stable by considering indexes as comparison parameter.  
+  * What is it?  
+    * A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.
+# Is QuickSort In-place?  
+  * As per the broad definition of in-place algorithm it qualifies as an in-place sorting algorithm as it uses extra space only for storing recursive function calls but not for manipulating the input.  
+  * What is it?  
+    * An in-place algorithm is an algorithm that does not need an extra space and produces an output in the same memory that contains the data by transforming the input ‘in-place’. However, a small constant extra space used for variables is allowed.   
+    * In-place means that the algorithm does not use extra space for manipulating the input but may require a small though nonconstant extra space for its operation. Usually, this space is O(log n), though sometimes anything in o(n) (Smaller than linear) is allowed.  
+
        
 
      
