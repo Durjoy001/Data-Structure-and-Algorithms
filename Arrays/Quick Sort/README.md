@@ -36,6 +36,8 @@ and put all smaller elements (smaller than x) before x, and put all greater elem
        T(n) = T(n/9) + T(9n/10) + \theta(n)  
        Solution of above recurrence is also O(nLogn)  
        
+ * Although the worst case time complexity of QuickSort is O(n2) which is more than many other sorting algorithms like Merge Sort and Heap Sort, QuickSort is faster in practice, because its inner loop can be efficiently implemented on most architectures, and in most real-world data. QuickSort can be implemented in different ways by changing the choice of pivot, so that the worst case rarely occurs for a given type of data. However, merge sort is generally considered better when data is huge and stored in external storage.  
+ 
        
 
      
