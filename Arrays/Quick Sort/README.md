@@ -18,17 +18,17 @@ and put all smaller elements (smaller than x) before x, and put all greater elem
      * Following are three cases:  
      
      * Worst Case:     
-                 The worst case occurs when the partition process always picks greatest or smallest element as pivot. If we consider above partition strategy where last element is always picked as pivot, the worst case would occur when the array is already sorted in increasing or decreasing order. Following is recurrence for worst case:  
+                 The worst case occurs when the partition process always picks greatest or smallest element as pivot. If we consider above partition strategy where last element is always picked as pivot, the worst case would occur when the array is already sorted in increasing or decreasing order. Following is recurrence for worst case:    
        
-        T(n) = T(0) + T(n-1) + \theta(n)  
-        which is equivalent to    
-        T(n) = T(n-1) + \theta(n)    
-        The solution of above recurrence is O(n^2).  
+        T(n) = T(0) + T(n-1) + \theta(n)    
+        which is equivalent to      
+        T(n) = T(n-1) + \theta(n)      
+        The solution of above recurrence is O(n^2).    
         
      * Best Case:       
-                The best case occurs when the partition process always picks the middle element as pivot. Following is recurrence for best case. 
-                 T(n) = 2T(n/2) + \theta(n)  
-                 The solution of above recurrence is \theta(nLogn).   
+                The best case occurs when the partition process always picks the middle element as pivot. Following is recurrence for best case.   
+                 T(n) = 2T(n/2) + \theta(n)    
+                 The solution of above recurrence is \theta(nLogn).     
       
      * Average Case:  
       To do average case analysis, we need to consider all possible permutation of array and calculate time taken by every permutation which doesn’t look easy.
