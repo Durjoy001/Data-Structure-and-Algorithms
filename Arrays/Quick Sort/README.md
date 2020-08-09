@@ -62,8 +62,11 @@ Most practical implementations of Quick Sort use randomized version. The randomi
      
 Quick Sort is also a cache friendly sorting algorithm as it has good locality of reference when used for arrays.  
 Quick Sort is also tail recursive, therefore tail call optimizations is done.  
+   
+# Why MergeSort is preferred over QuickSort for Linked Lists?  
+In case of linked lists the case is different mainly due to difference in memory allocation of arrays and linked lists. Unlike arrays, linked list nodes may not be adjacent in memory. Unlike array, in linked list, we can insert items in the middle in O(1) extra space and O(1) time. Therefore merge operation of merge sort can be implemented without extra space for linked lists.
 
-
+In arrays, we can do random access as elements are continuous in memory. Let us say we have an integer (4-byte) array A and let the address of A[0] be x then to access A[i], we can directly access the memory at (x + i*4). Unlike arrays, we can not do random access in linked list. Quick Sort requires a lot of this kind of access. In linked list to access i’th index, we have to travel each and every node from the head to i’th node as we don’t have continuous block of memory. Therefore, the overhead increases for quick sort. Merge sort accesses data sequentially and the need of random access is low. 
  
  
  
