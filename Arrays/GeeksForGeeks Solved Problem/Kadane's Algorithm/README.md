@@ -2,7 +2,7 @@
   * Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers which has the largest sum.   
     
 # Kadane’s Algorithm:  
-    Initialize:  
+Initialize:  
     max_so_far = 0  
     max_ending_here = 0  
 
@@ -11,7 +11,7 @@ Loop for each element of the array
   (b) if(max_so_far < max_ending_here)  
             max_so_far = max_ending_here  
   (c) if(max_ending_here < 0)  
-            max_ending_here = 0  
+            max_ending_here = 0   
 return max_so_far    
 
 # Explanation:  
