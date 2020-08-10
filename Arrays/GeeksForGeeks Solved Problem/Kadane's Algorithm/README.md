@@ -20,3 +20,6 @@ And keep track of maximum sum contiguous segment among all positive segments (ma
 Each time we get a positive sum compare it with max_so_far and update max_so_far if it is greater than max_so_far.    
 
 # Time Complexity: O(n)
+
+But this algo not give correct ans when all elements of an array is negative,it's returun 0,when this occurs.    
+https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0  here or   is the solution ,this code also solve this corner case as well. 
