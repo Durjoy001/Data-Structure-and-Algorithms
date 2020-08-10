@@ -22,4 +22,4 @@ Each time we get a positive sum compare it with max_so_far and update max_so_far
 # Time Complexity: O(n)
 
 But this algo not give correct ans when all elements of an array is negative,it's returun 0,when this occurs.    
-https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0  here or   is the solution ,this code also solve this corner case as well. 
+https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0   or https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Arrays/GeeksForGeeks%20Solved%20Problem/Kadane's%20Algorithm.cpp  is the solution ,this code also solve this corner case as well. 
