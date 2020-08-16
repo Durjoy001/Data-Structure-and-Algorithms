@@ -8,7 +8,7 @@ int main()
     cout<<p<<endl;
     cout<<*p<<endl;
     cout<<&a<<endl;
-    *p = 12; //dereferencing
+    *p = 12; //dereferencing (access and modifie)
     cout<<*p<<endl;
     int b = 2010;
     *p = b; //will the address in p change to points b? ANS: NO; its just change the value
