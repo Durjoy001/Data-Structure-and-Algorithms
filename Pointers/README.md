@@ -6,7 +6,8 @@ yes, you can do so in a C or C++ program, using the concept of pointers.
      int a=4;  
      int *p;   (pointer to int) (We need an integer pointer variable to store the address of an integer)    
      p = &a;   (Now, this variable 'p' can store the address of 'a') 
-     print p;  (output will be the address of 'a' )  
+     print p;  (output will be the address of 'a' )  (Every time when we run the program address will be different than the previous address,
+                because every time the program runs afresh,a new address is allocated)   
      print &a; (also give the address of 'a')  
      print &p; (give address of 'P' )  
      print *p; (it gives us the value at the location that it points to ,basically it's gives the value of 'a')  
