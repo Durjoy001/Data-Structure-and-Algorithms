@@ -1,3 +1,5 @@
+# Introduction to pointers in C/C++  
+https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=2&t=0s  
 can we know the address of a variable in our program? Or can we operate upon these memory addresses in our program?    
 yes, you can do so in a C or C++ program, using the concept of pointers.       
 # Pointers are variables that store the address of another variable.   
