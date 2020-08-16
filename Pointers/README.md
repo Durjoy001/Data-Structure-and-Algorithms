@@ -4,7 +4,7 @@ can we know the address of a variable in our program? Or can we operate upon the
 yes, you can do so in a C or C++ program, using the concept of pointers.       
 # Pointers are variables that store the address of another variable.   
      int a=4;  
-     int *p;   (pointer to int)   
+     int *p;   (pointer to int) (We need an integer pointer variable to store the address of an integer)    
      p = &a;   (Now, this variable 'p' can store the address of 'a') 
      print p;  (output will be the address of 'a' )  
      print &a; (also give the address of 'a')  
