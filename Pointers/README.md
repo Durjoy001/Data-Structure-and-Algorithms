@@ -1,1 +1,24 @@
+can we know the address of a variable in our program?  
+Or can we operate upon these memory addresses in our program. Well,  
+yes, you can do so in a C or C++ program,  
+using the concept of pointers.     
+# Pointers are variables that store the address of another variable.   
+     int a=4;  
+     int *p; (pointer to int)   
+     p = &a; (Now, this variable 'p' can store the address of 'a') 
+     print p  (output will be the address of 'a' )  
+     print &a (also give the address of 'a')  
+     print &p (give address of 'P' )  
+     print *p (it gives us the value at the location that it points to ,basically it's gives the value of 'a')  
+     (This concept is called as de-referencing)  
+     we can modify the value at this particular location, by   
+     *p = 8;  (the value at 'p' is now modified to 8. also the value of 'a' becomes 8)   
+       
+So if we try to print a pointer variable without asterisk ( * ) sign, or operate upon it without asterisk ( * ) sign, we are operating with the address.  
+While if we put the asterisk ( * ) sign in front of the pointer variable, and operate upon it then we are operating the value at that address.   
+
+     
+     
+     
+     
 
