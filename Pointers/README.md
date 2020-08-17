@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=d3kd5KbGB48&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsas
  * why pointer variables are strongly typed? why do we need a pointer to integer to reference or store the address of an integer?  
    * ANS: it is because we don't just store the address of a variable in a pointer variable we also use the pointer variable to dereference the address &
      write some value there.(modifie and get the value in that address)  
-      
+ * void pointer (void* p) its only able to store the address of integer vaiable or any other type of variabe but its not store the value of that address ,means we can't get value if we use this type of pointer.
      
      
      
