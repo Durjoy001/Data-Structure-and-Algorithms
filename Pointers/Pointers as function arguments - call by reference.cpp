@@ -14,5 +14,5 @@ int main()
     //so if we use pointers as function arguments  then we are using call by reference.
     //Call by reference can save us a lot of memory because instead of creating a copy of a large and complex
     //data-type  if we just use a reference to it and using a reference will also cost us some memory, but very small amount of memory.
-    cout<<a<<endl;
+    cout<<a<<endl;//output will be 11
 }
