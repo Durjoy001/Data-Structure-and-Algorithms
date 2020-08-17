@@ -18,8 +18,11 @@ yes, you can do so in a C or C++ program, using the concept of pointers.
        
 So if we try to print a pointer variable without asterisk ( * ) sign, or operate upon it without asterisk ( * ) sign, we are operating with the address.  
 While if we put the asterisk ( * ) sign in front of the pointer variable, and operate upon it then we are operating the value at that address.   
-
-     
+# Pointers to Pointers  
+ * why pointer variables are strongly typed? why do we need a pointer to integer to reference or store the address of an integer?  
+   * ANS: it is because we don't just store the address of a variable in a pointer variable we also use the pointer variable to dereference the address &
+     write some value there.(modifie and get the value in that address)  
+      
      
      
      
