@@ -30,7 +30,9 @@ void swap(int* x, int* y)
 int main() 
 { 
     int x = 10, y = 20; 
-    swap(&x, &y); 
+    swap(&x, &y); // x,y is local variable so in swap function if we pass the value than ,swap function's x,y will just do copy the value of main function x,y
+   // and than x and y value will be interchange , and swap function will be end ,as  in swap function's x,y is also local variable so after end of swap function
+   // the main function's x,y will not be changed,that's why here we passed the address or reference and change the value of that address 
     printf("%d %d\n", x, y); 
     return 0; 
 } 
