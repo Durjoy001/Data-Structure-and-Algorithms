@@ -16,3 +16,21 @@ int main()
     //data-type  if we just use a reference to it and using a reference will also cost us some memory, but very small amount of memory.
     cout<<a<<endl;//output will be 11
 }
+
+
+#include <stdio.h> 
+  
+void swap(int* x, int* y) 
+{ 
+    int temp = *x; 
+    *x = *y; 
+    *y = temp; 
+} 
+  
+int main() 
+{ 
+    int x = 10, y = 20; 
+    swap(&x, &y); 
+    printf("%d %d\n", x, y); 
+    return 0; 
+} 
