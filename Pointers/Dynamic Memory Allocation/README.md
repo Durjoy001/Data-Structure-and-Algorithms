@@ -12,3 +12,6 @@ structure but heap is not an implementation of the heap data structure.)
 
 * To use dynamic memory in C we need to know about four functions **malloc, calloc, realloc and free.**  
 * In C++ we need to know about two operators **new and delete.**  
+#### [Detail explanation of dynamic memory allocation in C](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/Pointers%20and%20dynamic%20memory%20-%20stack%20vs%20heap.c)  
+#### [Detail explanation of dynamic memory allocation in C++](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/Pointers%20and%20dynamic%20memory%20-%20stack%20vs%20heap.cpp)  
+
