@@ -24,5 +24,11 @@ structure but heap is not an implementation of the heap data structure.)
    - [x] **realloc  - void * realloc (void * ptr,size_t size)** If we have a block of dynamically allocated memory and if you want to change the size of this block of memory, then we can use realloc.This function takes two arguments. The first argument is pointer to the starting address of the existing block and the second argument is the size of the new block.  there can be a case hear,The size of the new block that we want may be larger than the size of the previous block. In that case, machine may create an entirely new block and copy the previous data whatever bytes that was written in previous block into the new block and previous block will be deallocated automatically. If contiguous or consecutive memory is already available with the existing block than existing block will be extend otherwise it's create new one.If the size of the new block that we want is smaller than the size of the previous block than remaining extra space will be automatically deallocated.
  * deallocates a block of memory on the heap 
    - [x] **free**  - Any memory that is dynamically allocated remains allocated till the lifetime of the program, till the time the program is executing unless we explicitly de-allocate it and to de-allocate memory we have function free or delete.In Free function we just pass the starting address of memory block as argument.
-   like free(A).Here A is pointer to integer which we have to declare for points to heap.
+   like free(A).Here A is pointer to integer which we have to declare for points to heap.  
+   
+#### code of these 4 function:    
+   [**malloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/malloc.c)
+   [**calloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/calloc.c)  
+   [**realloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/realloc.c)  
+
 
