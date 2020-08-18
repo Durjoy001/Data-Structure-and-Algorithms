@@ -1,6 +1,7 @@
 ### [Pointers and dynamic memory - stack vs heap :boom:](https://www.youtube.com/watch?v=_8-ht2AKyH4&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=13&t=764s)    
 #### We can use pointers to dynamically allocate memory. The advantage of dynamically allocated memory is, it is not deleted until we explicitly delete it.   
-* Application of memory 1)store code(text) 2)store static and global variable 3)stack(function call and local variable 4)Heap
+* Application of memory 1)store code(text) 2)store static and global variable 3)stack(function call and local variable 4)Heap  
+* Allocaing large chunks of memory or keeping variable in the memory till the time we want, we have heap.   
 * The memory set aside for **stack** does not grow during runtime.Application cannot request more memory. When we exhaust the   
 whole space reserved for the stack, then this is called stack overflow and in this case our program will crash.   
 
