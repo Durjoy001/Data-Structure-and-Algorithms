@@ -17,9 +17,11 @@ structure but heap is not an implementation of the heap data structure.)
 
 ### [Dynamic memory allocation in C - malloc calloc realloc free :bomb:](https://www.youtube.com/watch?v=xDVC3wKjS64&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=13)  
  * allocate block of memory on the heap and these functions are   
-   - [x] malloc -  * void (size_t size) this function as argument asks for the sizeof the memory block in bytes. size_t store onle positive integar value. this function also return void pointer that gives us the address of the first byte in allocated memory block. We reserve or allocate memory because we want to store some data there.  
+   - [x] **malloc -  void * malloc(size_t size)** this function as argument asks for the sizeof the memory block in bytes. size_t store onle positive integar value like unsigned integer. this function also return void pointer that gives us the address of the first byte in allocated memory block. We reserve or allocate memory because we want to store some data there.  
         * This is void pointer so we didn't able to dereference it. To be able to use this block of memory, we first need to typecast this void pointer into a pointer of some data type.
-   - [x] calloc  
+   - [x] **calloc - void * calloc(size_t num,size_t size)**  calloc does the same stuff as malloc it is only slightly different. calloc also returns a void pointer but calloc takes 2 argument.number of elements of a particular data type and the second argument is the size of this data type.
+        *  When malloc allocates some amount of memory, it does not initialize the bytes with any value, so if we do not fill in any value into these addresses allocated
+           by malloc, you would have some garbage there. But if you allocate memory through calloc, calloc sets all byte positions with value zero. So, it also initializes the memory that it allocates to zero.
    - [x] realloc  
  * deallocates a block of memory on the heap 
    - [x] free  
