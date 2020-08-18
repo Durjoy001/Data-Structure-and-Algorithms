@@ -1,4 +1,4 @@
-[mycodeschool:boom:](https://www.youtube.com/watch?v=_8-ht2AKyH4&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=13&t=764s)    
+[Pointers and dynamic memory - stack vs heap :boom:](https://www.youtube.com/watch?v=_8-ht2AKyH4&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=13&t=764s)    
 #### We can use pointers to dynamically allocate memory. The advantage of dynamically allocated memory is, it is not deleted until we explicitly delete it.   
 
 * The memory set aside for **stack** does not grow during runtime.Application cannot request more memory. When we exhaust the   
