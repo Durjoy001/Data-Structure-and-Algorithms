@@ -15,3 +15,12 @@ structure but heap is not an implementation of the heap data structure.)
 #### [Detail explanation of dynamic memory allocation in C](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/Pointers%20and%20dynamic%20memory%20-%20stack%20vs%20heap.c)  
 #### [Detail explanation of dynamic memory allocation in C++](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/Pointers%20and%20dynamic%20memory%20-%20stack%20vs%20heap.cpp)  
 
+### [Dynamic memory allocation in C - malloc calloc realloc free :bomb:](https://www.youtube.com/watch?v=xDVC3wKjS64&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=13)  
+ * allocate block of memory on the heap and these functions are   
+   - [x] malloc -  * void (size_t size) this function as argument asks for the sizeof the memory block in bytes. size_t store onle positive integar value. this function also return void pointer that gives us the address of the first byte in allocated memory block. We reserve or allocate memory because we want to store some data there.  
+        * This is void pointer so we didn't able to dereference it. To be able to use this block of memory, we first need to typecast this void pointer into a pointer of some data type.
+   - [x] calloc  
+   - [x] realloc  
+ * deallocates a block of memory on the heap 
+   - [x] free  
+
