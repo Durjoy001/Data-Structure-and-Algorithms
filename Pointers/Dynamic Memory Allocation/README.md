@@ -27,8 +27,8 @@ structure but heap is not an implementation of the heap data structure.)
    like free(A).Here A is pointer to integer which we have to declare for points to heap.  
    
 #### code of these 4 function:    
-   [**malloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/malloc.c)
-   [**calloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/calloc.c)  
-   [**realloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/realloc.c)  
+   [**malloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/malloc.c)   
+   [**calloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/calloc.c)    
+   [**realloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/realloc.c)    
 
 
