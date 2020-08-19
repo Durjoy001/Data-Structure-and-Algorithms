@@ -26,7 +26,7 @@ structure but heap is not an implementation of the heap data structure.)
  * deallocates a block of memory on the heap 
    - [x] **free**  - Any memory that is dynamically allocated remains allocated till the lifetime of the program, till the time the program is executing unless we explicitly de-allocate it and to de-allocate memory we have function free or delete.In Free function we just pass the starting address of memory block as argument.
    like free(A).Here A is pointer to integer which we have to declare for points to heap.  
-   
+ * If space is insufficient, allocation fails and returns a NULL pointer. 
 #### code of these 4 function:    
    [**malloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/malloc.c)   
    [**calloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/calloc.c)    
