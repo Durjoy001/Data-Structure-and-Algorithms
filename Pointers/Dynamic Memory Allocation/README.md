@@ -1,4 +1,4 @@
-### [Pointers and dynamic memory - stack vs heap :boom:](https://www.youtube.com/watch?v=_8-ht2AKyH4&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=13&t=764s)    
+### [Pointers and dynamic memory - stack vs heap -(mycodeschool) :boom:](https://www.youtube.com/watch?v=_8-ht2AKyH4&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=13&t=764s)    
 #### We can use pointers to dynamically allocate memory. The advantage of dynamically allocated memory is, it is not deleted until we explicitly delete it.   
 * Application of memory 1)store code(text) 2)store static and global variable 3)stack(function call and local variable 4)Heap  
 * Allocating large chunks of memory(large data type) or keeping variable in the memory till the time we want, we have heap.   
@@ -16,7 +16,7 @@ structure but heap is not an implementation of the heap data structure.)
 #### [Detail explanation of dynamic memory allocation in C](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/Pointers%20and%20dynamic%20memory%20-%20stack%20vs%20heap.c)  
 #### [Detail explanation of dynamic memory allocation in C++](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/Pointers%20and%20dynamic%20memory%20-%20stack%20vs%20heap.cpp)  
 
-### [Dynamic memory allocation in C - malloc calloc realloc free :bomb:](https://www.youtube.com/watch?v=xDVC3wKjS64&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=13)  
+### [Dynamic memory allocation in C - malloc calloc realloc free -(mycodeschool):bomb:](https://www.youtube.com/watch?v=xDVC3wKjS64&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=13)  
  * allocate block of memory on the heap and these functions are   
    - [x] **malloc -  void * malloc(size_t size)** this function as argument asks for the sizeof the memory block in bytes. size_t store onle positive integar value like unsigned integer. this function also return void pointer that gives us the address of the first byte in allocated memory block. We reserve or allocate memory because we want to store some data there.  
         * **This is void pointer so we didn't able to dereference it. To be able to use this block of memory(store value and modifie value), we first need to typecast this void pointer into a pointer of some data type.**
@@ -32,5 +32,5 @@ structure but heap is not an implementation of the heap data structure.)
    [**calloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/calloc.c)    
    [**realloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/realloc.c)    
 #### must read this [GeeksforGeeks Dynamic memory allocation in C](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)  
-#### [GeeksforGeeks : what happens when we don’t free memory after using malloc()?](https://www.geeksforgeeks.org/what-happens-when-you-dont-free-memory-after-using-malloc/?ref=rp)  
+#### [GeeksforGeeks : what happens when we don’t free memory after using malloc() ?](https://www.geeksforgeeks.org/what-happens-when-you-dont-free-memory-after-using-malloc/?ref=rp)  
 
