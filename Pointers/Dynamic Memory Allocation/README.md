@@ -31,5 +31,6 @@ structure but heap is not an implementation of the heap data structure.)
    [**malloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/malloc.c)   
    [**calloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/calloc.c)    
    [**realloc**](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Pointers/Dynamic%20Memory%20Allocation/realloc.c)    
+### must read this [GeeksforGeeks Dynamic memory allocation in C](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)  
 
 
