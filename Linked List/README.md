@@ -28,8 +28,8 @@ Operation            |                Array                 |                 Li
 1)Cost of accesing element| **constant time O(1)** | **Avarage case O(n)**     
 2)Memory requirement| **Fixed size ,unused memory(if we declare large size of array and not insert this much of element),memory may not be available as one large block,extend of array size is costly.** |**No unused memory,extra memory for pointer variable,memory may be available as multiple small blocks.**  
 3)Inserting of element|**a) at beginning: O(n), b) at end: O(1) if array is not full, O(n) if array is full c) average case: O(n)** | **a) at beginning: O(1), b) at end: O(n) c) average case: O(n)**  
-4)Remove an element | **same as insert** | **same as insert**  
-5)Ease of use | **Array emplement is easy** | **Not easy to implement have to got many error when using this.**  
+4)Remove an element | **same as insert, average case O(n)** | **same as insert, average case O(n)**  
+5)Ease of use | **Array emplementation is easy** | **Not easy to implement have to got many error when using this.**  
 
 
 
