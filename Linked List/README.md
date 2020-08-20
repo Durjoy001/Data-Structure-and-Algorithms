@@ -8,11 +8,16 @@ Arrays can be used to store linear data of similar types, but arrays have the fo
 #### Advantages over arrays:  
 1) Dynamic size  
 2) Ease of insertion/deletion   
-* **Time taken to access the element in inked list is O(n) ,cz in the worst case to traverse the last element we will go through all the elements, so time taken to access or modifie elements is proportional to n.Time complexity O(n).**    
+* **Time taken to access the element in linked list is O(n) ,cz in the worst case to traverse the last element we will go through all the elements, so time taken to access or modifie elements is proportional to n.Time complexity O(n).**    
 * **Insertion:O(n), Now to insert also, we will have to traverse the list and got to that particular position and so this will be O(n) again in terms of of time complexity ,  will not have to do all the shifts as we had to do in an array.**     
-* **Delete: Time complexity O(n),have to go to that position from head**  
+* **Delete: Time complexity O(n),have to go to that position from head.**  
 * **There  is no extra use of memory ,though we are using some extra memory to store the addresses, but we have the benefit that we create nodes as and when we want we can also free the nodes as and we do not have to guess the size of the list beforehand like in the case of arrays.**  
 #### Drawbacks:  
 **1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists efficiently with its default implementation.**  
 2) Extra memory space for a pointer is required with each element of the list.  
 3) **Not cache friendly.** Since array elements are contiguous locations, there is locality of reference which is not there in case of linked lists.
+#### Representation:  
+* A linked list is represented by a pointer to the first node of the linked list. The first node is called the head. If the linked list is empty, then the value of the head is NULL.Address of the head node kind of gives us access to the complete Linked list.   
+* **Each node in a linked list consists of at least two parts:**  
+  1) data.   
+  2) Pointer (Or Reference,)which contain address to the next node.    
