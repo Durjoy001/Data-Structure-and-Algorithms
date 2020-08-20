@@ -20,4 +20,26 @@ Arrays can be used to store linear data of similar types, but arrays have the fo
 * A linked list is represented by a pointer to the first node of the linked list. The first node is called the head. If the linked list is empty, then the value of the head is NULL.Address of the head node kind of gives us access to the complete Linked list.   
 * **Each node in a linked list consists of at least two parts:**  
   1) data.   
-  2) Pointer (Or Reference,)which contain address to the next node.    
+  2) Pointer (Or Reference,)which contain address to the next node.      
+##  Arrays vs Linked Lists: [mycodeschool](https://www.youtube.com/watch?v=lC-yYCOnN8Q&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=4):boom:[GeeksforGeeks](https://www.geeksforgeeks.org/linked-list-vs-array/)  
+
+Operation            |                Array                 |                 Linked list    
+---------------------|--------------------------------------|--------------------------------- 
+1)Cost of accesing element| **constant time O(1)** | **Avarage case O(n)**     
+2)Memory requirement| **Fixed size ,unused memory(if we declare large size of array and not insert this much of element),memory may not be available as one large block,extend of array size is costly.** |**No unused memory,extra memory for pointer variable,memory may be available as multiple small blocks.**  
+3)Inserting of element|**a) at beginning: O(n), b) at end: O(1) if array is not full, O(n) if array is full c) average case: O(n)** | **a) at beginning: O(1), b) at end: O(n) c) average case: O(n)**  
+4)Remove an element | **same as insert** | **same as insert**  
+5)Ease of use | **Array emplement is easy** | **Not easy to implement have to got many error when using this.**  
+
+
+
+
+
+
+
+
+
+
+
+
+
