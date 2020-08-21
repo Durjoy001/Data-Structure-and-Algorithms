@@ -1,3 +1,5 @@
+//https://www.geeksforgeeks.org/linked-list-set-1-introduction/
+
 #include<bits/stdc++.h>
 using namespace std;
 class Node{
