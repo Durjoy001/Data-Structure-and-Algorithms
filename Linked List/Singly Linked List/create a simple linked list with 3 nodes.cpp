@@ -11,7 +11,7 @@ int main()
 {
 
     //allocate 3 nodes in the heap
-    Node* head = new Node();
+    Node* head = new Node();//it's return void pointer but we need pointer to node that's why we declare 3 pointer to node head,second,third.In C++ type casting is not needed.
     Node* second = new Node();
     Node* third = new Node();
     /* Three blocks have been allocated dynamically.
