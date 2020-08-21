@@ -26,8 +26,7 @@ void Insert(int X,int position)
          return;//not execute bellow code of this function
      }
      Node* temp2 = head;//assigning head address in temp2 pointer to node variable
-     for(int i=1;i<position-1;i++)//go to the (position-1)th node,currently we have head value(1st node value) that's why we go
-//position-2 th node and get position-1 address
+     for(int i=1;i<position-1;i++)//go to the (position-1)th node,currently we have head value(1st node value) that's why we go position-2 th node and get position-1 address
      {
          temp2 = temp2->next;//got address of previous node from we insert the newly created node
      }
