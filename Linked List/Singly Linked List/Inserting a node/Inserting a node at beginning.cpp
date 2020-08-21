@@ -1,4 +1,4 @@
-https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/
+//https://www.youtube.com/watch?v=cAZ8CyDY56s&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=6
 
 #include<bits/stdc++.h>
 using namespace std;
