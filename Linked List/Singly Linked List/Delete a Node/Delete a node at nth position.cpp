@@ -1,4 +1,5 @@
-https://www.youtube.com/watch?v=Y0n86K43GO4&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=9&t=0s
+//https://www.youtube.com/watch?v=Y0n86K43GO4&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=9&t=0s
+//https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/
 
 #include<bits/stdc++.h>
 using namespace std;
