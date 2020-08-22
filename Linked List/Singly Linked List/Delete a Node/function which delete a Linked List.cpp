@@ -42,7 +42,7 @@ void Delete()//delete Linked list
     while(tmp1 != NULL)
     {
         tmp2 = tmp1->next;
-        delete tmp1;
+        delete tmp1;//deallocate the memory ,allocated to each of the node
         tmp1 = tmp2;
     }
     head = NULL;//make head value NULL because we delete all the node,and if we not make this null
