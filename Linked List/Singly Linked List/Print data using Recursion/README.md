@@ -4,5 +4,7 @@
 recursive approach because in iterative approach we will just use one temporary variable while in recursion we will use space in the stack section of the memory for so many function calls so there is implicit use of memory there.**  
 
 **For ReversePrint operation we will any way have to store elements in some
-structure so if we use recursion it's still okay.**  
+structure so if we use recursion it's still okay.** 
+
+**so recursion kind of gives us a way to first traverse the list in the forward direction and then traverse the list in the backward direction**
 
