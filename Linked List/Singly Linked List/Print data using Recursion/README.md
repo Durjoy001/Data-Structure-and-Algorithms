@@ -6,5 +6,5 @@ recursive approach because in iterative approach we will just use one temporary 
 **For ReversePrint operation we will any way have to store elements in some
 structure so if we use recursion it's still okay.** 
 
-**so recursion kind of gives us a way to first traverse the list in the forward direction and then traverse the list in the backward direction**
+**so recursion kind of gives us a way to traverse the list in the forward direction and traverse the list in the backward direction**
 
