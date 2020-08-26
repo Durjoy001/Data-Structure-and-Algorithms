@@ -1,4 +1,9 @@
 //https://practice.geeksforgeeks.org/problems/find-length-of-loop/1
+/*Complexity Analysis:
+    Time complexity:O(n).
+    Only one traversal of the linked list is needed.
+    Auxiliary Space:O(1).
+    As no extra space is required.*/
 
 int countNodesinLoop(struct Node *head)
 {
