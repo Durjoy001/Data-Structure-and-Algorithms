@@ -3,6 +3,7 @@
    * Traverse linked list using two pointers.
    * Move one pointer(slow_ptr) by one and another pointer(fast_ptr) by two. 
    * If these pointers meet at the same node then there is a loop. If pointers do not meet then linked list doesn’t have a loop.
+   * When distance becomes n, they meet because they are moving in a cycle of length n. 
 ### Complexity Analysis:
    * Time complexity: O(n).  
      Only one traversal of the loop is needed.  
