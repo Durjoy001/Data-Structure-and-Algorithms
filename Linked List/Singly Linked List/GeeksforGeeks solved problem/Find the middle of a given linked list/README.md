@@ -1,3 +1,4 @@
+### [GfG](https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)  
 Method 1:   
 Traverse the whole linked list and count the no. of nodes. Now traverse the list again till count/2 and return the node at count/2.     
 Method 2:   
