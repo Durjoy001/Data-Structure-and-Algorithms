@@ -1,4 +1,9 @@
 //https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
+/*Complexity Analysis:
+    Time Complexity: O(n).
+    Traversal of list is done only once and it has ‘n’ elements.
+    Auxiliary Space: O(1).
+    No use of data structure for storing values.*/
 
 
 //reverse every K group of element
