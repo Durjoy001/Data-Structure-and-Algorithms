@@ -8,7 +8,7 @@
 In a conventional linked list, we traverse the list from the head node and stop the traversal when we reach NULL. In a circular linked list, we stop traversal when we reach the first node again.     
 ## :boom:[GeeksforGeeks (Insertion)](https://www.geeksforgeeks.org/circular-singly-linked-list-insertion/)  
 **Why have we taken a pointer that points to the last node instead of first node ?**  
-For insertion of node in the beginning we need traverse the whole list. Also, for insertion and the end, the whole list has to be traversed. If instead of start pointer we take a pointer to the last node then in both the cases there won’t be any need to traverse the whole list. So insertion in the begging or at the end takes constant time irrespective of the length of the list.    
+**For insertion of node in the beginning we need traverse the whole list. Also, for insertion and the end, the whole list has to be traversed. If instead of start pointer we take a pointer to the last node then in both the cases there won’t be any need to traverse the whole list. So insertion in the begging or at the end takes constant time irrespective of the length of the list.**      
 ### Insertion  
 **A node can be added in three ways:**  
     1) Insertion in an empty list      
