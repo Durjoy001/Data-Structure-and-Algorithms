@@ -4,6 +4,9 @@ int countNodes(struct Node* head)
 {
     Node *tmp = head;
     int count = 0;
+    if(tmp == NULL){
+        return count;
+    }
     do{
         count++;
         tmp= tmp->next;
