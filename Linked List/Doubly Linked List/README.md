@@ -14,4 +14,5 @@ A node can be added in four ways
 2) After a given node.  
 3) At the end of the DLL  
 4) Before a given node.    
-## :boom:[Delete a node in a Doubly Linked List](https://www.geeksforgeeks.org/delete-a-node-in-a-doubly-linked-list/)  
+## :boom:[Delete a node in a Doubly Linked List](https://www.geeksforgeeks.org/delete-a-node-in-a-doubly-linked-list/)    
+### [Here is code](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Linked%20List/Doubly%20Linked%20List/Delete%20node%20in%20Doubly%20Linked%20List.cpp)
