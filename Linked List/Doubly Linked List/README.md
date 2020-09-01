@@ -13,4 +13,5 @@ A node can be added in four ways
 1) At the front of the DLL  
 2) After a given node.  
 3) At the end of the DLL  
-4) Before a given node.  
+4) Before a given node.    
+## :boom:[Delete a node in a Doubly Linked List](https://www.geeksforgeeks.org/delete-a-node-in-a-doubly-linked-list/)  
