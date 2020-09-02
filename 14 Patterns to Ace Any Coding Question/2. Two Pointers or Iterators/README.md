@@ -20,4 +20,22 @@
         * If Merge Sort or Heap Sort is used then (-)(nlogn) in worst case.
         * If Quick Sort is used then O(n^2) in worst case.
    * **Auxiliary Space:**     
-   * This too depends on sorting algorithm. The auxiliary space is O(n) for merge sort and O(1) for Heap Sort.
+   * This too depends on sorting algorithm. The auxiliary space is O(n) for merge sort and O(1) for Heap Sort.  
+   
+**If it allow to use extra space than we can use hasing**  
+**Approach:**   
+This problem can be solved efficiently by using the technique of hashing. Use a **hash_map** to check for the current array value **x(let)**, if there exists a value **target_sum-x** which on adding to the former gives **target_sum**. This can be done in constant time.   
+
+**Algorithm:**
+  1. Initialize an empty hash table s.
+  2. Do following for each element A[i] in A[]  
+        a. If s[x – A[i]] is in set then print the pair (A[i], x – A[i])  
+        b. Insert A[i] into s.  
+        
+#### Complexity Analysis:  
+   * Time Complexity: O(n).  
+       * As the whole array is needed to be traversed only once.  
+   * Auxiliary Space: O(n).  
+       * As a hash map has been used to store array elements.  
+
+  
