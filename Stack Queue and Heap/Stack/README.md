@@ -20,6 +20,10 @@ Mainly the following three basic operations are performed in the stack:
 There are two ways to implement a stack:  
   * Using array.    
   * Using linked list.    
+  
+ ### [Here is implementation of stack using array.](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Stack%20Queue%20and%20Heap/Stack/Stack(using%20array).cpp)  
+**Pros:** Easy to implement. Memory is saved as pointers are not involved.  
+**Cons:** It is not dynamic. It doesn’t grow and shrink depending on needs at runtime.(If we need 10 element of stack and we declare the array with 100 size than we block a 90 element of memory.same, If we initialize the stack size with 100 and after that if we need to store 110 element than we cann't do this cz it's not dynamic)  
 
 
 
