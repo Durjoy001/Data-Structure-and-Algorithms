@@ -13,6 +13,14 @@ Mainly the following three basic operations are performed in the stack:
 **push(), pop(), isEmpty() and peek() all take constant time O(1) time. We do not run any loop in any of these operations.**  
 
 **Application:**  
-* Function Calls/Recursion(chain of function calls).     
-* Undo in an editor.  
-* Balanced Parentheses.
+* Function Calls/Recursion(chain of function calls).       
+* Undo in an editor.      
+* Balanced Parentheses.    
+## Implementation: [mycodeschool](https://www.youtube.com/watch?v=sFVxsglODoo&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=15)[:boom:GfG](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/)  
+There are two ways to implement a stack:  
+  * Using array.    
+  * Using linked list.    
+
+
+
+  
