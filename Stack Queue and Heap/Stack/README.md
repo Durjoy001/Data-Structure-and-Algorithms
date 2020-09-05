@@ -23,7 +23,13 @@ There are two ways to implement a stack:
   
  ### [Here is implementation of stack using array.](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Stack%20Queue%20and%20Heap/Stack/Stack(using%20array).cpp)  
 **Pros:** Easy to implement. Memory is saved as pointers are not involved.  
-**Cons:** It is not dynamic. It doesn’t grow and shrink depending on needs at runtime.(If we need 10 element of stack and we declare the array with 100 size than we block a 90 element of memory.same, If we initialize the stack size with 100 and after that if we need to store 110 element than we cann't do this cz it's not dynamic)  
+**Cons:** It is not dynamic. It doesn’t grow and shrink depending on needs at runtime.(If we need 10 element of stack and we declare the array with 100 size than we block a 90 element of memory.same, If we initialize the stack size with 100 and after that if we need to store 110 element than we cann't do this cz it's not dynamic)     
+  
+### [Here is implementation of stack using linked list](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Stack%20Queue%20and%20Heap/Stack/Stack(using%20linked%20list).cpp)  [:boom:mycodeschool](https://www.youtube.com/watch?v=MuwxQ2IB8lQ&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=16)  
+**Pros:** The linked list implementation of stack can grow and shrink according to the needs at runtime.  
+**Cons:** Requires extra memory due to involvement of pointers.    
+* We can add or delete element in end of the linked list or beginning of the linked list, but if we add or delete element from end than we have to tarverse the list and in this case time complexity will be O(n), which is not efficient so we have to insert and delete element from beginning and in this case time complexity will be O(1), In that case **head of the lined list is top of the stack.**   
+*  one of the advantages is that unlike array based implementation we do not need to worry about overflow, unless we exhaust the memory of the machine itself. Some amount of extra memory is used in each node to store reference or address but the fact that the use of memory when needed and release when not needed is something that makes push and pop operations more craze full.  
 
 
 
