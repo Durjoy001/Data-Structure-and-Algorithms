@@ -17,4 +17,15 @@ Approach:
 3) Once we have swaped, we can increment i and decrement j, until i is less than j.     
 
 **Time Complexity: O(n)** where n is number of characters in string.  
-**Auxiliary Space: O(1)**.
+**Auxiliary Space: O(1)**.   
+
+### Reverse a Linked List using Stack.    
+### [mycodeschool](https://www.youtube.com/watch?v=hNP72JdOIgY&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=18&t=0s)[:boom:GfG](https://www.geeksforgeeks.org/program-to-reverse-a-linked-list-using-stack/)  
+**[Here is the code](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Stack%20Queue%20and%20Heap/Stack/Reverse%20a%20string%20and%20linked%20list%20using%20stack/reverse%20a%20linked%20list%20using%20Stack.cpp)**  
+
+Algorithm:   
+  * Traverse the list and push all of its nodes onto a stack.  
+  * Traverse the list from the head node again and pop a value from the stack top and connect them in reverse order.   
+  
+Time Complexity: O(n)   
+Auxiliary Space: O(n)    
