@@ -8,4 +8,6 @@ Algorithm:
         * After complete traversal, if there is some starting bracket left in stack then “not balanced”  
 
 **Time Complexity: O(n)**  
-**Auxiliary Space: O(n) for stack.**  
+**Auxiliary Space: O(n) for stack.**    
+
+**Checking for balanced parenthesis is one of the task performed by compiler.**  
