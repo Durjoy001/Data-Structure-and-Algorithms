@@ -2,13 +2,13 @@
 **Expression: [GeeksforGeeks](https://www.geeksforgeeks.org/what-is-an-expression-and-what-are-the-types-of-expressions/?ref=rp)** An expression is a combination of operators, constants and variables. An expression may consist of one or more operands, and zero or more operators to produce a value.   
 expresion: a+b ,, a and b is operand and + is operator.    
 ### [:boom: GeeksforGeeks: Arithmetic Expression Evalution](https://www.geeksforgeeks.org/arithmetic-expression-evalution/)  
-**Expressions are usually represented in what is known as Infix notation, in which each operator is written between two operands i.e  (A + B).**      
+**Expressions are usually represented in what is known as Infix notation, in which each operator is written between two operands i.e  (A + B). Simply of the form (operand1 operator operand2).**        
   
 **Polish notation (prefix notation) –**  
-**It refers to the notation in which the operator is placed before its two operands . Here no parentheses are required, i.e.  +AB**    
+**It refers to the notation in which the operator is placed before its two operands . Here no parentheses are required, i.e.  +AB,  Simply of the form (operator operand1 operand2).**      
   
 **Reverse Polish notation(postfix notation) –**  
-**It refers to the analogous notation in which the operator is placed after its two operands. Again, no parentheses is required in Reverse Polish notation, i.e. AB+**    
+**It refers to the analogous notation in which the operator is placed after its two operands. Again, no parentheses is required in Reverse Polish notation, i.e. AB+ ,  (operand1 operand2 operator).**       
 
 Stack organized computers are better suited for post-fix notation then the traditional infix ntation. Thus the infix notation must be converted to the post-fix notation. The conversion from infix notation to post-fix notation must take into consideration the operational hierarchy.   
   
