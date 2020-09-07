@@ -19,9 +19,9 @@ Thus the infix notation must be converted to the post-fix notation. The conversi
 There are 3 levels of operator-precedence for 5 binary operators as given below:    
 **All of this rules are required for evaluation of infix notation, not required for other two.**  
 * **Parentheses:**  () {} []    
-* **Highest:**  Exponentiation (^) ( right to left, In case of multiple exponentiation operator,, 2^3^2 = 2^9)       
-* **Next highest:**  Multiplication (*) and division (/)   ( left to right,,In case of multiple operator,their precendence is same)      
-* **Lowest:**  Addition (+) and Subtraction (-)   ( left to right,In case of multiple operator ,their precendence is same,, 4-2+1 = 3)    
+* **Highest:**  Exponentiation (^) ( **right to left**, In case of multiple exponentiation operator,, 2^3^2 = 2^9)       
+* **Next highest:**  Multiplication (*) and division (/)   ( **left to right**,,In case of multiple operator,their precendence is same)      
+* **Lowest:**  Addition (+) and Subtraction (-)   ( **left to right**,In case of multiple operator ,their precendence is same,, 4-2+1 = 3)    
   
 This right to left and left to right rule that we have wriiten here for operators with equal precedence is better termed as operator associativity.
 If in case of multiple operators with equal precedence we go from left to right then we say that operators are left associative and if we go from right to left
