@@ -10,6 +10,8 @@ expresion: a+b ,, a and b is operand and + is operator.
 **Reverse Polish notation(postfix notation) –**  
 **It refers to the analogous notation in which the operator is placed after its two operands. Again, no parentheses is required in Reverse Polish notation, i.e. AB+**    
 
+Stack organized computers are better suited for post-fix notation then the traditional infix ntation. Thus the infix notation must be converted to the post-fix notation. The conversion from infix notation to post-fix notation must take into consideration the operational hierarchy.   
+  
 There are 3 levels of operator-precedence for 5 binary operators as given below:    
 
 * **Parentheses:**  () {} []    
