@@ -1,75 +1,43 @@
 //https://practice.geeksforgeeks.org/problems/overlapping-intervals/0
+//Time complexity of the method is O(nLogn) which is for sorting. Once the array of intervals is sorted, merging takes linear time.
 
 #include <bits/stdc++.h>
 using namespace std;
 vector<pair<int,int> > A;
+stack<int>s;
+void printList()
+{
+    if(!s.empty())
+    {
+        int x = s.top();
+        s.pop();
+        printList();
+        cout<<x<<" ";
+    }
+}
 void Intervals(int n)
 {
-    stack<int>s;
-    int a,b;
-    for(int i=0;i<n;i++ )
+    if(n==0)
     {
-        if(s.empty())
+        return;
+    }
+     s.push(A[0].first);
+     s.push(A[0].second);
+    for(int i=1;i<n;i++)
+    {
+        if(s.top()<A[i].first)
         {
             s.push(A[i].first);
             s.push(A[i].second);
         }
-        else
+        else if(s.top()<A[i].second)
         {
-            b = s.top();
             s.pop();
-            a = s.top();
-            s.pop();
-            //cout<<a<<" "<<b<<endl;
-            if (A[i].first>b && A[i].second>b)
-            {
-                s.push(a);
-                s.push(b);
-                s.push(A[i].first);
-                s.push(A[i].second);
-            }
-            else if(A[i].first<a && A[i].second<a)
-            {
-                s.push(a);
-                s.push(b);
-                s.push(A[i].first);
-                s.push(A[i].second);
-            }
-            else if(A[i].first<= a && A[i].second>=b)
-            {
-                s.push(A[i].first);
-                s.push(A[i].second);
-            }
-            else if(A[i].first >= a && A[i].second <= b)
-            {
-                s.push(a);
-                s.push(b);
-            }
-            else if(A[i].first>=a && A[i].second>=b)
-            {
-                s.push(a);
-                s.push(A[i].second);
-            }
-            else if(A[i].first<=a && A[i].second<=b)
-            {
-                s.push(A[i].first);
-                s.push(b);
-            }
+            s.push(A[i].second);
         }
     }
-    vector<int>res;
-    while(!s.empty())
-    {
-        res.push_back(s.top());
-        s.pop();
-    }
-    sort(res.begin(),res.end());
-    for(int i=0;i<res.size();i++)
-    {
-        cout<<res[i]<<" ";
-    }
+    printList();
     cout<<endl;
-    res.clear();
     A.clear();
 }
 int main() {
