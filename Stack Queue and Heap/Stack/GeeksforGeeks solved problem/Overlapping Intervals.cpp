@@ -1,5 +1,7 @@
 //https://practice.geeksforgeeks.org/problems/overlapping-intervals/0
+
 //Time complexity of the method is O(nLogn) which is for sorting. Once the array of intervals is sorted, merging takes linear time.
+//O(n) extra space for stack.
 
 #include <bits/stdc++.h>
 using namespace std;
