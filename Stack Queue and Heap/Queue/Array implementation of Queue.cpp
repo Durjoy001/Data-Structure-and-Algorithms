@@ -43,11 +43,11 @@ public:
     void Dequeue()
     {
         if(isEmpty())
-		{
-			cout<<"Error: Queue is Empty\n";
-			return;
-		}
-		else if(Front == Rear)
+	{
+	     cout<<"Error: Queue is Empty\n";
+	     return;
+	}
+	else if(Front == Rear)
         {
             Front = Rear = -1;
         }
@@ -67,9 +67,9 @@ public:
 	}*/
 	void Print()
 	{
-	   //number of element in array
-	    int count = (Rear+max_size-Front)% max_size + 1;
-	    for(int i=0;i<count;i++)
+	   //number of element in queue
+	  int count = (Rear+max_size-Front)% max_size + 1;
+	for(int i=0;i<count;i++)
         {
             int index = (i+Front)% max_size;
             cout<<A[index]<<" ";
