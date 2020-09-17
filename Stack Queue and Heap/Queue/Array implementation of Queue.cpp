@@ -67,6 +67,7 @@ public:
 	}*/
 	void Print()
 	{
+	   //number of element in array
 	    int count = (Rear+max_size-Front)% max_size + 1;
 	    for(int i=0;i<count;i++)
         {
