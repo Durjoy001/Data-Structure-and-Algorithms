@@ -1,6 +1,6 @@
 ## Introduction to Queues  
 ### [:boom:mycodeschool](https://www.youtube.com/watch?v=XuCbpw6Bj1U&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=23)[:boom:GeeksforGeeks](https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)    
-Queue is a list or collection with the restriction that insertion can be performed at one end (rear) and deletion can be performed at other end (front).  
+**Queue is a list or collection with the restriction that insertion can be performed at one end (rear) and deletion can be performed at other end (front).**    
 Queue is a  First In First Out (FIFO)  data structure.The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.  
 **Operations on Queue:**  
 **Enqueue:**  Adds an item to the queue. If the queue is full, then it is said to be an Overflow condition.  
