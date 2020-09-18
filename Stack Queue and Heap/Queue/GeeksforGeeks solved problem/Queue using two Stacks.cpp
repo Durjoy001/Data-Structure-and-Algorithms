@@ -1,4 +1,4 @@
-
+//https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1
 
 /* The method push to push element into the queue */
 void StackQueue :: push(int x)
