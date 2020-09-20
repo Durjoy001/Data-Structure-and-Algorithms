@@ -23,7 +23,7 @@ void printKMax(int arr[],int n,int k)
         // previous window, so print it
         cout<<arr[Q.front()]<<" ";
          // Remove the elements which are out of this window
-        while(!Q.empty() && Q.front()<= i-k)
+        if(!Q.empty() && Q.front()<= i-k)
         {
             Q.pop_front();// Remove from front of queue
         }
