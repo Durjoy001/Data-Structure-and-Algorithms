@@ -8,6 +8,14 @@ Given an array and an integer K, find the maximum for each and every contiguous 
 4. Print the front element of the array.  
 5. Remove the element from the front of the queue if they are out of the current window.  
 6. Insert the next element in the deque. While inserting the element if the element at the back of the queue is smaller than the current element remove all those elements and then insert the element  
-7. Print the maximum element of the last window.  
+7. Print the maximum element of the last window.    
+
+#### Compelxity Analysis:
+   * **Time Complexity: O(n).**  
+     It seems more than O(n) at first look. It can be observed that every element of array is added and removed at most once. So there are total 2n operations.  
+   *  **Auxiliary Space: O(k).**   
+     Elements stored in the dequeue take O(k) space.  
+
+
 
 
