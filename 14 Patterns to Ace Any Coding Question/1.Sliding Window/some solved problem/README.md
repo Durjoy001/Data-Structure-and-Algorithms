@@ -1,3 +1,4 @@
 ### :boom:Some Solved problem:      
 #### [Maximum of all subarrays of size k](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/14%20Patterns%20to%20Ace%20Any%20Coding%20Question/1.Sliding%20Window/some%20solved%20problem/Maximum%20of%20all%20subarrays%20of%20size%20k.cpp)    
-#### [First negative integer in every window of size k](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Stack%20Queue%20and%20Heap/Queue/GeeksforGeeks%20solved%20problem/First%20negative%20integer%20in%20every%20window%20of%20size%20k.cpp)  
+#### [First negative integer in every window of size k](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Stack%20Queue%20and%20Heap/Queue/GeeksforGeeks%20solved%20problem/First%20negative%20integer%20in%20every%20window%20of%20size%20k.cpp)    
+#### [Sum of minimum and maximum elements of all subarrays of size k.](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Stack%20Queue%20and%20Heap/Queue/GeeksforGeeks%20solved%20problem/Sum%20of%20minimum%20and%20maximum%20elements%20of%20all%20subarrays%20of%20size%20k.cpp)
