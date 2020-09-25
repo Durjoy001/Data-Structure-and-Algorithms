@@ -48,7 +48,7 @@ Height and depth are different properties and height and depth of a node may or 
 
 **The most common way of implementing tree is dynamically created nodes linked using pointers or references, just the way we do for linked list.**  
   
-**In each node, we have 3 fields 
+**In each node, we have 3 fields(In Binary Tree) 
 We have an integer variable to store the data and then we have 2 pointers to Node, one to 
 store the address of the left child that will be the root of the left sub-tree and another 
 to store the address of the right child.**     
