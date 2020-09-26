@@ -9,5 +9,8 @@ Operation  |  Array (Unsorted)  |  Linked List   |  Array (Sorted)   |   BST (Ba
 
 **In Binary Search Tree cost of all these three operations is O(log n) in average case.**   
 **The cost of all the operations will be O(n) in worst case.**   
+
 **But we can avoid the worst case by making sure that the tree is always balanced (Balanced BST) (we call a tree balanced if for all nodes, the difference between the 
-heights of left and right sub-trees is not greater than 1.**     
+heights of left and right sub-trees is not greater than 1.**   
+
+**In BST the search here is also a binary search.**   
