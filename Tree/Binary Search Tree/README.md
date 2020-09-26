@@ -13,4 +13,8 @@ The cost of all the operations will be **O(n) in worst case** (If the tree is A 
 **But we can avoid the worst case by making sure that the tree is always balanced (Balanced BST)** (we call a tree balanced if for all nodes, the difference between the 
 heights of left and right sub-trees is not greater than 1.      
 
-**In BST the search here is also a binary search.**   
+**In BST the search here is also a binary search.**  
+
+For insert or delete an element in BST, first we have to find the position where to insert and have to find the node which to delete, and this cost O(log n) time(for
+searching these position and node).And after this we can do insert and delete in constant time O(1).
+
