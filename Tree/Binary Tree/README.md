@@ -38,5 +38,6 @@ we can implement binary tree using
 for node at index i : left child index : 2i+1    
                       reight child index : 2i+2 (in a complete binary tree)   
                       
+### GeeksforGeeks :boom: [Introduction](https://www.geeksforgeeks.org/binary-tree-set-1-introduction/) [:boom:Properties](https://www.geeksforgeeks.org/binary-tree-set-2-properties/)[:boom:Types of Binary Tree](https://www.geeksforgeeks.org/binary-tree-set-3-types-of-binary-tree/)[:boom:Handshaking Lemma](https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/)    
 
 
