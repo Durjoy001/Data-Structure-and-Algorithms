@@ -1,4 +1,5 @@
-### [:boom: mycodeschool](https://www.youtube.com/watch?v=pYT9F8_LFTM&list=PL-pUjcDnciX3Z5AEE8HHRrcfj-987Ia94&index=3)   
+### [:boom: mycodeschool](https://www.youtube.com/watch?v=pYT9F8_LFTM&list=PL-pUjcDnciX3Z5AEE8HHRrcfj-987Ia94&index=3)    
+**Binary search tree is a binary tree in which for each node, value of all the nodes in left sub-tree is lesser or equal and value of all the nodes in right sub-tree is    greater, and both left and right sub-trees must also be binary search trees.**   
 Operation  |  Array (Unsorted)  |  Linked List   |  Array (Sorted)   |   BST (Balanced)    
 -----------|--------------------|----------------|-------------------|-----------------    
 **Search (X)** |  O(n) |  O(n)  | O(log n) [Using binary search.] | **O(log n)**   
@@ -16,5 +17,7 @@ heights of left and right sub-trees is not greater than 1.
 **In BST the search here is also a binary search.**  
 
 For insert or delete an element in BST, first we have to find the position where to insert and have to find the node which to delete, and this cost O(log n) time(for
-searching these position and node).And after this we can do insert and delete in constant time O(1).
+searching these position and node).And after this we can do insert and delete in constant time O(1).     
+
+### [:boom: GfG Binary Search Tree](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/)   
 
