@@ -1,5 +1,6 @@
 //https://www.youtube.com/watch?v=COZK7NATh4k&list=PL-pUjcDnciX3Z5AEE8HHRrcfj-987Ia94&index=4   
 
+// program to create a BST of integers and search an element in it 
 #include<bits/stdc++.h>
 using namespace std;
 //Definition of Node for Binary search tree
