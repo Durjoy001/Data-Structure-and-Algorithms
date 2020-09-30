@@ -24,6 +24,9 @@
   Time Complexity : **O(n)**    
   Space Complexity : **O(n) n function call stored in stack memory until base case execute.**   
   
+  #### :boom: Time Complexity analysis of recursion - Fibonacci Sequence : [mycodeschool]( https://www.youtube.com/watch?v=GM9sA5PtznY&list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO&index=2)   
+  **Time Complexity : O(2^n)**   
+  
   
   
   
