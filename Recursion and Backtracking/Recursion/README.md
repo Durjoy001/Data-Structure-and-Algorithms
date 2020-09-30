@@ -14,7 +14,7 @@
  
  In the iterative program, while we are calculating each state or each 
  value of F(i) we calculate it exactly once, But in the recursive implementation, we are calculating each state  multiple times, in the bellow recursion tree
- we can see that fib(2) is calculating 3 times.    
+ we can see that fib(2) is calculating 3 times (for this reason it requires more time and space).    
  
   ![Recursion Tree](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/fib1.png)       
   
