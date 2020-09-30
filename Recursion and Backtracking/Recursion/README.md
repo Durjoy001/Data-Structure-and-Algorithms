@@ -8,7 +8,7 @@
  * [Here is the Code](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Find%20the%20Factorial%20of%20n%20using%20recursion.cpp)  
  
  #### :boom: Why recursion is not always good?  [mycodeschool]( https://www.youtube.com/watch?v=GM9sA5PtznY&list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO&index=2)    
- **Here is the code of nth Fibonacci number**[ Iterative]() [ Recursive]()   
+ **Here is the code of nth Fibonacci number**[ Iterative](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Find%20the%20nth%20Fibonacci%20(Iterative).cpp) [ Recursive](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Find%20the%20nth%20Fibonacci%20(recursive).cpp)     
  n if n == 0, n == 1;        
  fib(n) = fib(n-1) + fib(n-2) otherwise;  
  
