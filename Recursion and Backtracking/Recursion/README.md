@@ -37,6 +37,30 @@ we are avoiding all the re-calculation of the same state again and again .
 
 Recursion with memoization in this particular example is not as efficient as an iterative implementation in terms of memory but it is as good as an iterative implementation in terms of time .     
 
+#### :boom: Fibonacci Sequence - space complexity analysis [mycodeschool](https://www.youtube.com/watch?v=dxyYP3BSdcQ&list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO&index=6)   
+
+**Space Complexity : O(n)**  
+
+Even though explicitly we have not declared any variable or used 
+any memory in the function Fib(n), behind the scene all the states of these function are
+being saved in the memory or all these recursive function calls are stacked in the memory and space
+is getting consumed. We often say that an implicit stack is growing in the memory and we call this function call stack.    
+
+The space consumed by this particular recursion is maximum growth of this function call stack, and it's happen when we were at the bottom-most node.   
+
+When F(1) is executing, then all these states of F(n),F(n-1)......F(4), F(3) and F(2) were saved 
+in the memory and we were consuming kind of n units of space in the memory and the call 
+stack did not grow any larger than this (cz after executing F(1)the base case, it's poped out from stack,than F(2) execute and after finishing it also poped out from stack,maybe another function call from recursion tree can take place this F(2)'s palce when F(2) pop out but stack doesn't grow more than n unit).   
+
+**The maximum space consumed by a recursive program is proportional to the maximum depth of the recursion tree.**  
+
+And the maximum depth of recursion tree is defined as the length of the longest path in the tree.when we analyze complexity of programs, we often take the upper bound for the time or the space taken.         
+
+
+
+
+
+
 
 
   
