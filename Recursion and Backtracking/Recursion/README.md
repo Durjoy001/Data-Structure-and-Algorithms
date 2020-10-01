@@ -56,6 +56,9 @@ stack did not grow any larger than this (cz after executing F(1)the base case, i
 
 And the maximum depth of recursion tree is defined as the length of the longest path in the tree.when we analyze complexity of programs, we often take the upper bound for the time or the space taken.         
 
+#### :boom: Exponentiation - Calculate Pow(x,n) using recursion : [mycodeschool](https://www.youtube.com/watch?v=wAyrtLAeWvI&list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO&index=7)     
+* [Here is code of this O(n) time complexity](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Exponentiation%20-%20Calculate%20Pow(x%2Cn)%20using%20recursion(%20O(n)%20time).cpp)    
+* [Here is code of this O(log n) time complexity](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Exponentiation%20-%20Calculate%20Pow(x%2Cn)%20using%20recursion(%20O(log%20n)%20time).cpp)   
 
 
 
