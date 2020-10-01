@@ -31,8 +31,8 @@
   **[Here is the code of recursion with memoization](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Fibonacci%20Sequence%20-%20Recursion%20with%20memoization.cpp)**      
 **Recursion with memoization is an important technique to improve the performance of a recursive program.**    
 
-In fibonacci sequence any F(n) like F(3), F(4) and so on,once we calculate it for the first time we will save it in the memory so if 
-F(n) is in memory do not try to calculate it, simply return it.   
+In fibonacci sequence any F(i) like F(3), F(4) and so on,once we calculate it for the first time we will save it in the memory so if 
+F(i) is in memory do not try to calculate it, simply return it.   
 we are avoiding all the re-calculation of the same state again and again .   
 
 Recursion with memoization in this particular example is not as efficient as an iterative implementation in terms of memory but it is as good as an iterative implementation in terms of time .     
