@@ -25,7 +25,21 @@
   Space Complexity : **O(n) n function call stored in stack memory until base case execute.**   
   
   #### :boom: Time Complexity analysis of recursion - Fibonacci Sequence : [mycodeschool]( https://www.youtube.com/watch?v=GM9sA5PtznY&list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO&index=2)   
-  **Time Complexity : O(2^n)**   
+  **Time Complexity : O(2^n)**     
+  
+  #### :boom: Fibonacci Sequence - Recursion with memoization : [mycodeschool](https://www.youtube.com/watch?v=UxICsjrdlJA&list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO&index=5)   
+  **[Here is the code of recursion with memoization]()**    
+**Recursion with memoization is an important technique to improve the performance of a recursive program.**    
+
+In fibonacci sequence any F(n) like F(3), F(4) and so on,once we calculate it for the first time we will save it in the memory so if 
+F(n) is in memory do not try to calculate it, simply return it.   
+we are avoiding all the re-calculation of the same state again and again .   
+
+Recursion with memoization in this particular example is not as efficient as an iterative implementation in terms of memory but it is as good as an iterative implementation in terms of time .     
+
+
+
+  
   
   
   
