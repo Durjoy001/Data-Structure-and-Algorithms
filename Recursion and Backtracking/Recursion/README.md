@@ -70,10 +70,10 @@ if n is even then { (x^n/2 % m) * (x^n/2 % m) } % m
 if n is odd then  { (x % m) * (x^n-1 % m) } % m      
 if n is 0 then return 1   
 **[Here is the code](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Modular%20exponentiation%20-%20using%20Recursion.cpp)**         
-**Time Complexity : O(log n)**    
+**Time Complexity : O(log n)**      
 
-
-
+#### :boom: Exponentiation - Time Complexity analysis of recursion : [mycodeschool](https://www.youtube.com/watch?v=VHcZtdp5054&list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO&index=9)    
+**Time Complexity : O(log n)**      
 
 
 
