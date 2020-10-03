@@ -59,7 +59,9 @@ to store the address of the right child.**
 For example, the file system on your disc drive, the file and folder hierarchy is naturally **hierarchical data.**    
 2) Organizing data, organizing collections for **quick search, insertion and deletion**.   
 3) A special kind of tree called **Trie is used to store dictionary.** Its really fast and efficient and is used for dynamic spell checking.    
-4) Tree data structure is also used in **network routing algorithms.**   
+4) Tree data structure is also used in **network routing algorithms.**     
+
+### [:boom: GfG Application of Trees](https://www.geeksforgeeks.org/applications-of-tree-data-structure/)   
 
 
 
