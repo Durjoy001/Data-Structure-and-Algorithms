@@ -58,7 +58,19 @@ And the maximum depth of recursion tree is defined as the length of the longest 
 
 #### :boom: Exponentiation - Calculate Pow(x,n) using recursion : [mycodeschool](https://www.youtube.com/watch?v=wAyrtLAeWvI&list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO&index=7)     
 * [Here is code of this O(n) time complexity](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Exponentiation%20-%20Calculate%20Pow(x%2Cn)%20using%20recursion(%20O(n)%20time).cpp)    
-* [Here is code of this O(log n) time complexity](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Exponentiation%20-%20Calculate%20Pow(x%2Cn)%20using%20recursion(%20O(log%20n)%20time).cpp)   
+* [Here is code of this O(log n) time complexity](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Exponentiation%20-%20Calculate%20Pow(x%2Cn)%20using%20recursion(%20O(log%20n)%20time).cpp)      
+
+#### :boom: Modular exponentiation - using Recursion : [mycodeschool](https://www.youtube.com/watch?v=nO7_qu2kd1Q&list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO&index=8)   
+Have to calculate x^n mod m.   
+(a * b) % m =  { (a % m) * (b % m) } % m  
+
+((x^n) % m) = (x * x^n-1) % m    
+
+if n is even then { (x^n/2 % m) * (x^n/2 % m) } % m      
+if n is odd then  { (x % m) * (x^n-1 % m) } % m      
+if n is 0 then return 1   
+**[Here is the code](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Recursion%20and%20Backtracking/Recursion/Modular%20exponentiation%20-%20using%20Recursion.cpp)**         
+**Time Complexity : O(log n)**    
 
 
 
