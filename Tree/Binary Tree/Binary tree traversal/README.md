@@ -22,4 +22,13 @@ changing here.
 1. Extra Space required for Level Order Traversal is **O(w)** where w is maximum width of Binary Tree.  
 2. Extra Space required for Depth First Traversals is **O(h)** where h is maximum height of Binary Tree.   
 
+**Maximum Width of a Binary Tree at depth (or height) h can be 2^h where h starts from 0.**  
+So the maximum number of nodes can be at the last level. And **worst case(for level order traversal)** occurs when Binary Tree is a **perfect Binary Tree** with numbers of nodes like 1, 3, 7, 15, …etc. In worst case, value of 2^h is Ceil(n/2).    
+
+Height for a Balanced Binary Tree is O(Log n). **Worst case(for depth first traversal)** occurs for **skewed tree** and worst case **height becomes O(n)**.
+So in worst case extra space required is O(n).      
+
+**It is evident from above points that extra space required for Level order traversal is likely to be more when tree is more balanced and extra space for Depth First Traversal is likely to be more when tree is less balanced.**   
+
+
    
