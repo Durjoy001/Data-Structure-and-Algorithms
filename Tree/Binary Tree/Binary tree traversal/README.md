@@ -37,11 +37,11 @@ Initially we are enqueuing the root node.
 
 **printLevelorder(tree)**      
 **1) Create an empty queue q**   
-**2) temp_node = root /*start from root*/**    
+**2) push root address to queue  /*start from root*/**    
 **3) Loop while queue is not NULL**    
-    **a) print temp_node->data.**    
+    **a) temp_node = queue.front() and print it's data.**    
     **b) Enqueue temp_node’s children (first left then right children) to q**    
-    **c) Dequeue a node from q and assign it’s value to temp_node**     
+    **c) Dequeue front element of queue.**     
 
 #### [Here is code of Level order traversal](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/Binary%20Tree/Binary%20tree%20traversal/Level%20Order%20Traversal.cpp)  
 As the algorithm will execute, at some point for each level, all the nodes 
