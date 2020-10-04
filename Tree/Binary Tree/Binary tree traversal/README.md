@@ -16,9 +16,9 @@ changing here.
 
 **In-order traversal of a binary search tree will give us a sorted list.**  
 
-**All four traversals require O(n) time as they visit every node exactly once.**   
+**:boom:All four traversals require O(n) time as they visit every node exactly once.**   
 
-**There is difference in terms of extra space required :**   
+**:boom:There is difference in terms of extra space required :**   
 1. Extra Space required for Level Order Traversal is **O(w)** where w is maximum width of Binary Tree.  
 2. Extra Space required for Depth First Traversals is **O(h)** where h is maximum height of Binary Tree.   
 
