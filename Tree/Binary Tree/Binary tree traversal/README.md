@@ -48,7 +48,7 @@ As the algorithm will execute, at some point for each level, all the nodes
 in that level will be in the queue. In a perfect binary tree, we will have n/2 nodes at the deepest level. 
 **So, maximum number of nodes in the queue is going to be at least n/2.** 
 **So, basically extra memory used is proportional to n - the number of nodes.** 
-**So, space complexity will be O(n) for this case.** 
+**So, space complexity will be O(n) for this case(wrost case).** 
 In best case space complexity will O(1) when tree is skewed.
 for average case, space complexity will be O(n).      
 
