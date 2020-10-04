@@ -30,5 +30,31 @@ So in worst case extra space required is O(n).
 
 **It is evident from above points that extra space required for Level order traversal is likely to be more when tree is more balanced and extra space for Depth First Traversal is likely to be more when tree is less balanced.**   
 
+### :boom:Level Order Traversal : [mycodeschool](https://www.youtube.com/watch?v=86g8jAQug04&list=PL-pUjcDnciX3Z5AEE8HHRrcfj-987Ia94&index=9) [ GeeksforGeeks](https://www.geeksforgeeks.org/level-order-tree-traversal/)   
+What we can do is, as we visit a node, we can keep reference or address of all its children in a queue, so we can visit them later.   
+Initially we are enqueuing the root node.   
+**We'll storing the address of the node in the queue.** As long as the queue is not empty, we can take out a node from the front, visit it(print data) and then enqueue its children. Once the queue is empty, we are done with our traversal.      
+
+**printLevelorder(tree)**      
+**1) Create an empty queue q**   
+**2) temp_node = root /*start from root*/**    
+**3) Loop while temp_node is not NULL**    
+    **a) print temp_node->data.**    
+    **b) Enqueue temp_node’s children (first left then right children) to q**    
+    **c) Dequeue a node from q and assign it’s value to temp_node**     
+
+#### [Here is code of Level order traversal](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/Binary%20Tree/Binary%20tree%20traversal/Level%20Order%20Traversal.cpp)  
+As the algorithm will execute, at some point for each level, all the nodes 
+in that level will be in the queue. In a perfect binary tree, we will have n/2 nodes at the deepest level. 
+**So, maximum number of nodes in the queue is going to be at least n/2.** 
+**So, basically extra memory used is proportional to n - the number of nodes.** 
+**So, space complexity will be O(n) for this case.** 
+In best case space complexity will O(1) when tree is skewed.
+for average case, space complexity will be O(n).      
+
+**Time Complexity: O(n)** where n is number of nodes in the binary tree  
+**Space Complexity: O(n)** where n is number of nodes in the binary tree    
+
+
 
    
