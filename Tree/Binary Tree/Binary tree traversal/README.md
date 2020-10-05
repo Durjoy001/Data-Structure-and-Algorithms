@@ -55,6 +55,13 @@ for average case, space complexity will be O(n).
 **Time Complexity: O(n)** where n is number of nodes in the binary tree  
 **Space Complexity: O(n)** where n is number of nodes in the binary tree    
 
+### :boom: Depth First Traversals : [mycodeschool](https://www.youtube.com/watch?v=gm8DUJJhmY4&list=PL-pUjcDnciX3Z5AEE8HHRrcfj-987Ia94&index=10)[ GeeksforGeeks](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)   
+**[Here is the code of Inorder Preorder Postorder Traversal](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/Binary%20Tree/Binary%20tree%20traversal/Inorder_Preorder_Postorder.cpp)**    
+
+**Time Complexity: O(n)** There are one function call corresponding to each node.  
+**Space Complexity: O(h).** In wrost case it will be O(n) for skewed tree and Best and Average Space complexity will be O(log n).    
+
+
 
 
    
