@@ -59,7 +59,27 @@ for average case, space complexity will be O(n).
 **[Here is the code of Inorder Preorder Postorder Traversal](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/Binary%20Tree/Binary%20tree%20traversal/Inorder_Preorder_Postorder.cpp)**    
 
 **Time Complexity: O(n)** There are one function call corresponding to each node.  
-**Space Complexity: O(h).** In wrost case it will be O(n) for skewed tree and Best and Average Space complexity will be O(log n).    
+**Space Complexity: O(h).** In wrost case it will be O(n) for skewed tree and Best and Average Space complexity will be O(log n).     
+
+**Algorithm Inorder traversal**  
+   1. Traverse the left subtree, i.e., call Inorder(left-subtree)   
+   2. Visit the root.(print or manupulate data)       
+   3. Traverse the right subtree, i.e., call Inorder(right-subtree)    
+**In case of binary search trees (BST), Inorder traversal gives nodes in non-decreasing order.**    
+
+**Algorithm Preorder traversal**   
+   1. Visit the root.(print data or manupulate data)     
+   2. Traverse the left subtree, i.e., call Preorder(left-subtree)   
+   3. Traverse the right subtree, i.e., call Preorder(right-subtree)    
+   
+**Algorithm Postorder traversal**    
+   1. Traverse the left subtree, i.e., call Postorder(left-subtree)   
+   2. Traverse the right subtree, i.e., call Postorder(right-subtree)   
+   3. Visit the root.(print data or manupulate data)    
+ 
+
+
+   
 
 
 
