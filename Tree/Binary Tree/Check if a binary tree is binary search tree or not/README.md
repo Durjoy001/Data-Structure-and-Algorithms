@@ -1,0 +1,1 @@
+### :boom:[mycodeschool](https://www.youtube.com/watch?v=yEwSGhSsT0U&list=PL-pUjcDnciX3Z5AEE8HHRrcfj-987Ia94&index=11) and [GeeksforGeeks](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)   
