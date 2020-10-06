@@ -43,7 +43,7 @@ Initially we are enqueuing the root node.
     **b) Enqueue temp_node’s children (first left then right children) to q**    
     **c) Dequeue front element of queue.**     
 
-#### [Here is code of Level order traversal](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/Binary%20Tree/Binary%20tree%20traversal/Level%20Order%20Traversal.cpp)  
+#### [Here is code of Level order traversal](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/Binary%20Tree/Binary%20tree%20traversal/Level%20Order%20Traversal123.cpp)  
 As the algorithm will execute, at some point for each level, all the nodes 
 in that level will be in the queue. In a perfect binary tree, we will have n/2 nodes at the deepest level. 
 **So, maximum number of nodes in the queue is going to be at least n/2.** 
