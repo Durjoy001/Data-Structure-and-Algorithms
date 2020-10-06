@@ -1,7 +1,7 @@
 ### :boom:[mycodeschool](https://www.youtube.com/watch?v=yEwSGhSsT0U&list=PL-pUjcDnciX3Z5AEE8HHRrcfj-987Ia94&index=11) and [GeeksforGeeks1](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/) [GeeksforGeeks2](https://www.geeksforgeeks.org/check-if-a-binary-tree-is-bst-simple-and-efficient-approach/)  
 **[Here is the code](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/Binary%20Tree/Check%20if%20a%20binary%20tree%20is%20binary%20search%20tree%20or%20not/Check%20for%20BST.cpp)**      
 
-We will simply check wheather data in root is in the range or not.   
+We will simply check wheather data in root is in the range or not.Initaialy range will be from INT_MIN to INT_MAX.     
 For the left child lower bound will not change, upper bound will be to data in current node and for the right child, upper  bound will not change
 and lower bond will be data in current node.   
 
