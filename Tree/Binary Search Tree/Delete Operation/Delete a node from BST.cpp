@@ -12,20 +12,27 @@ Node* findMin(Node* root)
 // Return the root of the modified BST after deleting the node with value X
 Node *deleteNode(Node *root,  int X)
 {
+     // base case 
      if(root == NULL)
      {
          return root;
      }
+    // If the key to be deleted is smaller than the root's key, 
+    // then it lies in left subtree 
      else if(X<root->data) root->left = deleteNode(root->left,X);
+    // If the key to be deleted is greater than the root's key, 
+    // then it lies in right subtree 
      else if(X>root->data) root->right = deleteNode(root->right,X);
      // found data, Get ready to be deleted	
      else
      {
-         // Case 1:  No child
+         // Case 1:  No child,leaf node
          if(root->left == NULL && root->right == NULL)
          {
              delete root;
-             root = NULL;
+             root = NULL; 
+             /*but root still has its address. So
+              we can set root as null, and now we can return root.*/ 
              return root;
          }
          //Case 2: One child 
