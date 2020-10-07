@@ -24,4 +24,8 @@ have something greater.
 Now the root of the left/right subtree that is the left/right child of the current node may change after deletion 
 but the good thing is, the delete function will return address of the modified root of the left subtree.  
 
-**[Here is the code of Delete operation.](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/Binary%20Search%20Tree/Delete%20Operation/Delete%20a%20node%20from%20BST.cpp)**    
+**[Here is the code of Delete operation.](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/Binary%20Search%20Tree/Delete%20Operation/Delete%20a%20node%20from%20BST.cpp)**      
+
+**Time Complexity:** The worst case time complexity of delete operation is **O(h)** where h is height of Binary Search Tree.
+In worst case, we may have to travel from root to the deepest leaf node.
+The height of a **skewed tree** may become n and the time complexity of delete operation may become **O(n)**.
