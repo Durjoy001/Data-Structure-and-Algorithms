@@ -17,6 +17,7 @@ vector<int> verticalOrder(Node *root)
     // horizontal distance. 
     queue<pair<Node*,int> > Q;
     Q.push(make_pair(root,hd));
+    //using level order traversal we will do this vertical traversal
     while(!Q.empty())
     {
         // pop from queue front
