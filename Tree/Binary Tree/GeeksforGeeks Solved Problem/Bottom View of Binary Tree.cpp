@@ -1,5 +1,6 @@
 //https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
 
+//If don't understand than see horizontal travesal code
 // Method that returns the bottom view.
 vector <int> bottomView(Node *root)
 {
