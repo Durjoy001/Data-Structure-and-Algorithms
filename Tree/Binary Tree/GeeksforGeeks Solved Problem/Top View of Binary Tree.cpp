@@ -1,5 +1,7 @@
 //https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 
+////If don't understand than see vertical travesal code
+
 // function should print the topView of the binary tree
 void topView(struct Node *root)
 {
