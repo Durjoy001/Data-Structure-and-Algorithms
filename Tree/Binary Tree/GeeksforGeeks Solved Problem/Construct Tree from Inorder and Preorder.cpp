@@ -1,6 +1,6 @@
 //https://practice.geeksforgeeks.org/problems/construct-tree-1/1
 
-int preIndex = 0;
+int preIndex = 0;//declare it as a global variable
 Node* newNode(int data)
 {
     Node* tmp = new Node(data);
@@ -8,7 +8,8 @@ Node* newNode(int data)
 }
 Node* buildTreeWrapUtil(int in[],int pre[],int inStart,int inEnd,unordered_map<int,int>&m)
 {
-    //preIndex = 0;
+    //static int preIndex = 0; we can declare it as a static variable but GfG compiler check multiple
+    //test case at a same time and previous test case's preIndex value give wrong ans.
     if(inStart > inEnd)
     {
         return NULL;
