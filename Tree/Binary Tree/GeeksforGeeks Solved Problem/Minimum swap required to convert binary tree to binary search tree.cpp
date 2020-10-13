@@ -5,6 +5,7 @@ using namespace std;
 void inOrder(int a[],int n,vector<int>&v,int index)
 {
     // if index i is the parent, index 2*i + 1 is the left child and index 2*i + 2 is the right child.
+    //(Given the array representation of Complete Binary Tree in level order manner)
     if(index >= n)
     {
         return;
