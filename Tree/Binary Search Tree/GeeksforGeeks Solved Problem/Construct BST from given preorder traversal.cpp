@@ -1,3 +1,6 @@
+//https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+//https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
