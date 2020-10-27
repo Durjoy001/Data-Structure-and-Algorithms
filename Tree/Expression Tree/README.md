@@ -1,5 +1,5 @@
 ### :boom: [GeeksforGeeks](https://www.geeksforgeeks.org/expression-tree/)   
-**The expression tree is a binary tree in which each internal node corresponds to the operator and each leaf node corresponds to the operand.**  
+**The expression tree is a binary tree in which each internal node corresponds to the operator and each leaf node corresponds to the operand(data).**  
 **Inorder traversal of expression tree produces infix version of given postfix expression (same with preorder traversal it gives prefix expression)**   
   
 **Construction of Expression Tree:**    
