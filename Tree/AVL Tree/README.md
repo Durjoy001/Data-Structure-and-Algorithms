@@ -15,6 +15,8 @@ d) y is right child of z and x is left child of y (**Right Left Case**)
 
 **Left Rotate and Right Rotate** operations are to be performed in above mentioned 4 cases. In all of the cases, we only need to re-balance the subtree rooted with z and the complete tree becomes balanced as the height of subtree (After appropriate rotations) rooted with z becomes same as it was before insertion.   
 
+**:boom: [Here is the code of AVL tree insertion.](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Tree/AVL%20Tree/AVL%20Tree%20Insertion.cpp)**    
+
 **Time Complexity:** The rotation operations (left and right rotate) take constant time as only a few pointers are being changed there. Updating the height and getting the balance factor also takes constant time. So the time complexity of AVL insert remains same as BST insert which is O(h) where h is the height of the tree. Since AVL tree is balanced, the height is O(Logn). So time complexity of AVL insert is O(Logn).  
 
 **Comparison with Red Black Tree:**
