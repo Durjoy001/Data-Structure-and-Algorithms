@@ -10,8 +10,8 @@ int binarySearch(int arr[],int n,int x)
     while(low <= high)
     {
         mid = low + (high - low)/2;// low+high may overflow that's why we use this
-        //sometimes high + low can exceed the maximum value that an integer can store.
-        //(high+low)/2 and above equation is same , but for avoiding overflow we are not calculate (low+high)
+        //sometimes low+high can exceed the maximum value that an integer can store.
+        //(low+high)/2 and above equation is same , but for avoiding overflow we are not calculating (low+high)
         if(x == arr[mid])
         {
             return mid;//found x,return (exit)
