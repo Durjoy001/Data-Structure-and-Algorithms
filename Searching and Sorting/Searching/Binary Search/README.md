@@ -10,4 +10,16 @@ The idea of binary search is to use the information that the array is sorted and
     1. Compare x with the middle element.  
     2. If x matches with middle element, we return the mid index.  
     3. Else If x is greater than the mid element, then x can only lie in right half subarray after the mid element. So we recur for right half.  
-    4. Else (x is smaller) recur for the left half.  
+    4. Else (x is smaller) recur for the left half.    
+    
+#### :boom: Here is the code of
+* [Binary Search - Iterative Implementation](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Searching%20and%20Sorting/Searching/Binary%20Search/Binary%20Search%20-%20Iterative%20Implementation.cpp)  
+* [Binary Search - Recursive implementation](https://github.com/Durjoy001/Data-Structure-and-Algorithms/blob/master/Searching%20and%20Sorting/Searching/Binary%20Search/Binary%20Search%20-%20Recursive%20implementation.cpp)   
+
+**Time Complexity :**   
+**The time complexity of Binary Search is O(log n).**   
+
+**Space Complexity :**   
+**O(1) in case of iterative implementation. In case of recursive implementation, O(Logn) recursion call stack space.**  
+
+**Binary search is an example of decrease and conquer algorithm, for better understanding see this [GeeksforGeeks Decrease and Conquer.](https://www.geeksforgeeks.org/decrease-and-conquer/)**    
