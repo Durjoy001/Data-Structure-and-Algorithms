@@ -1,6 +1,8 @@
 //https://www.youtube.com/watch?v=4qjprDkJrjY&list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j&index=6
 //https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/
-
+//similar problem:
+//https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+//https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 
 class Solution{
 public:	
