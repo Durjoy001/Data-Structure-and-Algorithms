@@ -20,8 +20,8 @@ int main()
             cin>>A[i];
         }
         sort(A.begin(),A.end());
-        int low = A[1]-A[0];//lowest possible distance would be 1 between two cows
-        int high = A[n-1] - A[0];//highest possible distance would be difference between last and first element
+        int low = 1;//lowest possible distance would be 1 between two cows
+        int high = A[n-1] - A[0];//highest possible distance between two cows would be difference between last and first element
         long long int mid;
         while(low <= high)
         {
@@ -49,3 +49,4 @@ int main()
     }
     return 0;
 }
+
