@@ -8,7 +8,7 @@ bool isValid(int *arr,int n,int m,int mid)
     for(int i=0;i<n;i++)
     {
         // check if current number of pages are greater 
-        // than curr_min that means we will get the result 
+        // than mid that means we will get the result 
         // after mid no. of pages 
         if(arr[i]>mid)
         {
