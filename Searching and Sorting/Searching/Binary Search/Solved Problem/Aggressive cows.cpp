@@ -1,6 +1,7 @@
 //https://www.spoj.com/problems/AGGRCOW/
 //https://www.youtube.com/watch?v=SiE1XFhYoaA
-Time complexity O(n*log(n))
+//Time complexity O(n*log(n))
+////Strategy : Binary Search on Answer.If array is unsorted than also we can use this Binary search strategy.
 
 #include<bits/stdc++.h>
 using namespace std;
