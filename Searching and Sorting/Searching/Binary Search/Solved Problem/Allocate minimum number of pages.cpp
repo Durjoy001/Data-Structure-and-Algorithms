@@ -1,6 +1,7 @@
 //https://www.geeksforgeeks.org/allocate-minimum-number-pages/
 //https://www.youtube.com/watch?v=2JSQIhPcHQg
 
+//Strategy : Binary Search on Answer.If array is unsorted than also we can use this strategy.
 bool isValid(int *arr,int n,int m,int mid)
 {
     int student = 1;
