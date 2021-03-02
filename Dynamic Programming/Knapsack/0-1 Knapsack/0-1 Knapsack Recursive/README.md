@@ -3,7 +3,7 @@
 
 **The time complexity of this naive recursive solution is exponential (2^n).**  
 
-* **Time Complexity: O(2n).**      
+* **Time Complexity: O(2^n).**      
   * As there are redundant subproblems.   
 * **Auxiliary Space :O(1).**    
 
