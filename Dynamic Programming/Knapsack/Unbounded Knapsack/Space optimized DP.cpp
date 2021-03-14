@@ -11,6 +11,7 @@ public:
         for(int i=0;i<N;i++){
             for(int j=1;j<=W;j++){
                 if(wt[i]<=j){
+                    // we use max(dp[j],...) because we can use same item multiple time
                     dp[j] = max(dp[j],val[i]+dp[j-wt[i]]);
                 }
             }
