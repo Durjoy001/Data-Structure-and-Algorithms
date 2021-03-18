@@ -5,4 +5,4 @@
 **Time Complexity: O(m * n)    
 Auxiliary Space: O(m * n)**   
 
-**Substring should be continous.**
+**Substring should be continuous.**
