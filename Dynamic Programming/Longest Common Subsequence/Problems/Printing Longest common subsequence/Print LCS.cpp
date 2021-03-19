@@ -26,11 +26,12 @@ void lcs(string a,string b)
     int i = n,j = m;
     // Start from the right-most-bottom-most corner and one by one store characters in LCS
     while(i>0 && j>0){
-        // If current character in a and b are same, then current character is part of LCS
+        // If current character in a and b are same, then current character is part of LCS and go to upper diagonal cell
         if(a[i-1] == b[j-1]){
             LCS[len] = a[i-1];
             i--,j--,len--;
         }
+        // If not same, then find the larger of two(upper cell and left cell) and go in the direction of larger value 
         else if(dp[i-1][j] >= dp[i][j-1]){
             i--;
         }
