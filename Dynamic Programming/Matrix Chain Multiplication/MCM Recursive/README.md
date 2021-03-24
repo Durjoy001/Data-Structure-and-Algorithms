@@ -18,4 +18,6 @@ A2 = 20 x 30
 A3 = 30 x 10    
 A4 = 10 x 30   
 
-**Ai = arr[i-1] x arr[i]**   
+**Ai = arr[i-1] x arr[i]**     
+
+**The time complexity of the above naive recursive approach is exponential.**   
