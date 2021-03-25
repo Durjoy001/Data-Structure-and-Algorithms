@@ -2,4 +2,4 @@
 [GeeksforGeeks](https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/)    
 
 **Time Complexity : O (n ^ 3)    
-  Auxiliary Space : O (n ^ 2)**
+  Auxiliary Space : O (n * n)**
