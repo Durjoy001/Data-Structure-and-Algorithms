@@ -2,3 +2,7 @@
 **This is optimized code but also get TLE in GeeksforGeeks and LEETCODE.**    
 [GeeksforGeeks](https://www.geeksforgeeks.org/palindrome-partitioning-dp-17/)   
 
+
+
+### [Pepcoding Tutorial for this AC code](https://www.youtube.com/watch?v=qmTtAbOTqcg)    
+[Leetcode](https://leetcode.com/problems/palindrome-partitioning-ii/submissions/)  
