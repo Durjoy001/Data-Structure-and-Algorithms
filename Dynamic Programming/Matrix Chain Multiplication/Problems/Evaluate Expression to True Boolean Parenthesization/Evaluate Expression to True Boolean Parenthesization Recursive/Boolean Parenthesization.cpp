@@ -9,9 +9,9 @@ public:
         if(i==j){
             if(is_true==true){
                 if(S[i]=='T'){
-                    return 1;
+                    return 1;//we can also return this as true
                 }else{
-                    return 0;
+                    return 0;//can also return this false
                 }
             }else{
                 if(S[i]=='F'){
