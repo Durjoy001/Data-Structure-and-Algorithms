@@ -7,4 +7,6 @@ How to identify DP problems?
 
 * **Have to find optimal answer of a problem.Such as minimum,maximum(maximum profit,maximum value etc),largest,smalest etc.**    
 
-**First solve recursive solution then do Memoization or Bottom-Up DP.**   
+**First solve recursive solution then do Memoization or Bottom-Up DP.**     
+
+### [:boom:Leetcode Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns)    
