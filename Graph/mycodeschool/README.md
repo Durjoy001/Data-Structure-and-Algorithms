@@ -44,7 +44,7 @@ node A to node B) Once again, we can have a multi-edge in both directed and undi
 possible number of edges.(too many edges)   
 
 * A graph is called sparse if the number of edges is really less
-typically close to a number of vertices and not more than that.(too less edge)   
+typically close to a number of vertices and not more than that.(too few edge)   
 
 * A path in a graph is a sequence of vertices where each adjacent
 pair in the sequence is connected by an edge.   
