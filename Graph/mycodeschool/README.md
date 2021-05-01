@@ -34,9 +34,9 @@ node A to node B) Once again, we can have a multi-edge in both directed and undi
 
 * **In general if there are N vertices : | V | = N**   
 **Then maximum number of edges in a directed graph would be N * (N - 1).**   
-**In a simple directed graph number of edges would be in this range 0 to N * (N-1). 0 <= | E | <= N * (N -1).**    
+**In a simple directed graph number of edges would be in this range 0 to N * (N-1); 0 <= | E | <= N * (N -1).**    
 
-* **If the graph is simple and undirected number of edges would be in the range 0 to (N * (N - 1)) / 2. 0 <= | E | <=(N * (N -1)) / 2.**    
+* **If the graph is simple and undirected number of edges would be in the range 0 to (N * (N - 1) ) / 2; 0 <= | E | <= (N * (N -1) ) / 2.**    
 
 * **This is true only if the graph is simple there is no self loop or multi-edge.(Above two equation).**  
 
