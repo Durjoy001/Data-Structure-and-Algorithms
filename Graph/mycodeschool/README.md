@@ -62,9 +62,9 @@ then such a directed graph is called **weakly connected**.
 
 * **A graph with no cycle is called an acyclic graph.** A tree if drawn with undirected edges would be an example of and undirected acyclic graphs.**Tree is acyclic graph.**   
 
-### [Graph Representation part 01 - Edge List](https://www.youtube.com/watch?v=ZdY1Fp9dKzs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=40&t=1s)
+[**Graph Representation part 01 - Edge List**](https://www.youtube.com/watch?v=ZdY1Fp9dKzs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=40&t=1s)
 
-#### [Graph Representation part 02 - Adjacency Matrix](https://www.youtube.com/watch?v=9C2cpQZVRBA&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=41)   
+[**Graph Representation part 02 - Adjacency Matrix**](https://www.youtube.com/watch?v=9C2cpQZVRBA&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=41)   
 
 
 
