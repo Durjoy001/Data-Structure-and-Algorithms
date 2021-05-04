@@ -60,7 +60,9 @@ then such a directed graph is called **weakly connected**.
 
 * **A cycle in a graph is starting and ending in same node with no repation of node and edges.**  
 
-* **A graph with no cycle is called an acyclic graph.** A tree if drawn with undirected edges would be an example of and undirected acyclic graphs.**Tree is acyclic graph.**
+* **A graph with no cycle is called an acyclic graph.** A tree if drawn with undirected edges would be an example of and undirected acyclic graphs.**Tree is acyclic graph.**   
+
+### [Graph Representation part 01 - Edge List](https://www.youtube.com/watch?v=ZdY1Fp9dKzs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=40&t=1s)   
 
 
 
