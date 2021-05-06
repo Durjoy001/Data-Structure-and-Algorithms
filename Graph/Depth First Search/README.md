@@ -2,6 +2,7 @@
 [GeeksforGeeks](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)  
 [CP-algorithms](https://cp-algorithms.com/graph/depth-first-search.html)    
 
-**Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.**   
+**Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.**    
+**V is time taken for visiting V vertices and E is for traveling through adjacent nodes overall.**   
 
 **Space Complexity :O(V). Since an extra visited array is needed of size V.**
