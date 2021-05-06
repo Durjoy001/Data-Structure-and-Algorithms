@@ -15,7 +15,7 @@ vector<int> dfsOfGraph(int V,vector< vector<int> >adj)
     vector<int>ans;
     vector<int>vis(V+1,0);
     for(int i=1;i<=V;i++){//we assume that graph has multiple component else we can omit this loop
-        if(!vis[i]){
+        if(!vis[i]){//here start node is 1
             dfs(i,vis,ans,adj);
         }
     }
