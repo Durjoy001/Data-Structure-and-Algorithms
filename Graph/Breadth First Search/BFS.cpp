@@ -8,7 +8,7 @@ vector<int> bfsOfGraph(int V,vector<vector<int> >adj)
     //We have to write this loop to assume that graph has multiple component.
     //sometimes two or multiple part of a graph are disconnected from one another and this disconnected
     //part are called component.If in graph there has no disconnected component then we can omit this loop.
-    //In a graph there can be one or multiple component.
+    //In a single graph there can be one or multiple component.
         if(!vis[i]){
     //Number of time code comes inside this if statement are number of component of this graph.
             queue<int>q;
