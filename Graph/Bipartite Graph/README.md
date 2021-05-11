@@ -1,7 +1,7 @@
 #### [GeeksforGeeks](https://www.geeksforgeeks.org/bipartite-graph/)   
 [Cp-algorithms](https://cp-algorithms.com/graph/bipartite-check.html)   
 
-**Bipartite graph is a graph that can be coloured using exactly 2 colours such that no two adjacent nodes have same colour.**   
+**Bipartite graph is a graph that can be coloured using exactly 2 colours such that no two adjacent nodes have same colour. Adjacent node should have exactly oposite colour.**   
 
 **If a graph has odd length cycle then it's not bipartite graph.**   
 
