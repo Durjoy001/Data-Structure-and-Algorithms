@@ -11,4 +11,7 @@
 
 ### [Bipartite Graph (BFS) | Graph Coloring](https://www.youtube.com/watch?v=nbgaEu-pvkU&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&index=10&t=656s)   
 **Time Complexity : O(V + E)**   
-**Space Complexity : O(V)**   
+**Space Complexity : O(V)**     
+
+### [Bipartite Graph (DFS) | Graph Coloring](https://www.youtube.com/watch?v=uC884ske2uQ&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&index=11&t=2s)   
+**Time and Space Complexity same as BFS.**  
