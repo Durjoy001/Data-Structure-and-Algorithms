@@ -11,4 +11,15 @@ When a DFS call of a node is over, before ending this node DFS call we will push
 **Time Complexity: O(V+E). This algorithm is simply DFS with an extra stack. So time complexity is the same as DFS.**   
 **Auxiliary space: O(V). The extra space is needed for the stack.**   
 
-Topological Sorting is mainly used for scheduling jobs from the given dependencies among jobs.
+Topological Sorting is mainly used for scheduling jobs from the given dependencies among jobs.    
+
+### [Topological Sort (BFS) | Kahn's Algorithm](https://www.youtube.com/watch?v=rZv_jHZva34&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&index=14)   
+[GeeksforGeeks Kahn’s algorithm for Topological Sorting](https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/)   
+
+**A Directed Acyclic Graph has at least one vertex with in-degree 0 and one vertex with out-degree 0.**    
+
+**If count of visited nodes(size of topo sort ans vector list) is not equal to the number of nodes in the graph then the topological sort is not possible for the given graph.**   
+
+**Time Complexity: O(V+E). The outer for loop will be executed V number of times and the inner for loop will be executed E number of times.**   
+**Auxillary Space: O(V). The queue needs to store all the vertices of the graph. So the space required is O(V).**
+
