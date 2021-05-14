@@ -16,4 +16,8 @@ detect there is a cycle cz though it is again visited but from different DFS cal
  **Time Complexity: O(V+E). Time Complexity of this method is same as time complexity of DFS traversal which is O(V+E).**   
  **Space Complexity: O(V). To store the visited and recursion stack O(V) space is needed.**
  
+ ### [Cycle Detection in Directed Graph using BFS(Kahn's Algorithm)](https://www.youtube.com/watch?v=V6GxfKDyLBM&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&index=15)    
  
+ Topological sort is only possible in Directed Acyclic Graph and Kahn's algorithm is used to find topological sort by using BFS in Directed Acyclic graph.   
+ 
+ **Topological sort is not possible in cyclic graph so if we unable to generate full topological sort for given graph then there is a cycle.**  
