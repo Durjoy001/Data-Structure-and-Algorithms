@@ -12,4 +12,4 @@
 
 **Dijkstra's algorithm helps us to find the shortest distance/path from source to every other node.**   
 
-**Time Complexity : O( (E+V) LogV ) , LogV time is for min heap/priority queue each operation.**   
+**Time Complexity : O( (E+V) LogV ) , LogV time is needed for min heap/priority queue each operation.**   
