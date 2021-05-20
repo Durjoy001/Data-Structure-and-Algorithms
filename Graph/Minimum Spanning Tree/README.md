@@ -9,4 +9,8 @@ For a given graph there can be multiple spanning tree.
 
 **Among all the spanning tree possible from the graph, the spanning tree which has minimum total weight of edges is minimum spanning tree.**   
 
-#### [Prims Algorithm | Minimum Spanning Tree](https://www.youtube.com/watch?v=HnD676J56ak&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&index=20)   
+#### [Prims Algorithm | Minimum Spanning Tree](https://www.youtube.com/watch?v=HnD676J56ak&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&index=20)     
+
+#### [Prim's Algorithm | C++ Code Implementation](https://www.youtube.com/watch?v=oNTsS8lGDHw&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&index=22)   
+[GeeksforGeeks](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)   
+[GeeksforGeeks](https://www.geeksforgeeks.org/prims-mst-for-adjacency-list-representation-greedy-algo-6/)   
