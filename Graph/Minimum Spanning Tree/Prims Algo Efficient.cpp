@@ -23,7 +23,7 @@ int main()
     // Run the loop till all the nodes have been visited
     // because in the brute code we checked for mstSet[node] == false while computing the minimum
     // but here we simply take the minimal from the priority queue, so a lot of times a node might be taken twice
-    // hence its better to keep running till all the nodes have been taken.
+    // hence its better to keep running till all the nodes have been taken.(run loop until the queue is empty)
     while(!pq.empty()){
         int u = pq.top().second;//find node which has minimum key value
         pq.pop();
