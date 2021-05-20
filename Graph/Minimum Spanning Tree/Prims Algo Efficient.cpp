@@ -17,7 +17,7 @@ int main()
     for(int i=0;i<V;i++){
         key[i] = INT_MAX,mstSet[i] = false,parrent[i] = -1;
     }
-    priority_queue< pair<int,int>, vector <pair<int,int>> , greater<pair<int,int>> > pq;
+    priority_queue< pair<int,int>, vector <pair<int,int>> , greater<pair<int,int>> > pq;//MIN HEAP
     key[0] = 0;//0 is source node
     pq.push({0,0});//{value,node}
     // Run the loop till all the nodes have been visited
