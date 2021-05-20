@@ -18,6 +18,7 @@ int main()
         key[i] = INT_MAX,mstSet[i] = false,parrent[i] = -1;
     }
     key[0] = 0;//0 is source node
+    //Fnal MST have V-1 edges that's why we run the loop 0< V-1
     for(int count = 0;count<V-1;count++){
         int mini = INT_MAX,u;
         //find minimum key value from key array which is not part of mstSet array
