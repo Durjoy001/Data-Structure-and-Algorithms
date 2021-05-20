@@ -14,3 +14,6 @@ For a given graph there can be multiple spanning tree.
 #### [Prim's Algorithm | C++ Code Implementation](https://www.youtube.com/watch?v=oNTsS8lGDHw&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&index=22)   
 [GeeksforGeeks](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)   
 [GeeksforGeeks](https://www.geeksforgeeks.org/prims-mst-for-adjacency-list-representation-greedy-algo-6/)   
+
+
+read those 2gfg article and practice the gfg Q.also find tc.
