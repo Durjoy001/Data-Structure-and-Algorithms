@@ -17,7 +17,7 @@ int main()
     for(int i=0;i<V;i++){
         key[i] = INT_MAX,mstSet[i] = false,parrent[i] = -1;
     }
-    key[0] = 0;//0 is source node
+    key[0] = 0;//0 is source node, source to source distace is 0
     //Final MST have V-1 edges that's why we run the loop 0< V-1
     for(int count = 0;count<V-1;count++){
         int mini = INT_MAX,u;
@@ -27,7 +27,9 @@ int main()
                 mini = key[v],u = v;
             }
         }
+        //u node is minimum weighted node so now put it in MST
         mstSet[u] = true;
+        //update all it's adjacent node
         for(auto it : adj[u]){
             int v = it.first;
             int weight = it.second;
