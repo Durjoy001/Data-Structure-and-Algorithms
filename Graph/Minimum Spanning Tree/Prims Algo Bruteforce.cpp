@@ -22,6 +22,7 @@ int main()
     for(int count = 0;count<V-1;count++){
         int mini = INT_MAX,u;
         //find minimum key value from key array which is not part of mstSet array
+        //in key array index is node and value is weight  of this corresponding node,here we will find minimum weighted node
         for(int v = 0;v<V;v++){
             if(mstSet[v] == false && key[v]<mini){
                 mini = key[v],u = v;
