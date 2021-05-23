@@ -15,4 +15,4 @@ For a given graph there can be multiple spanning tree.
 [GeeksforGeeks](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)   
 [GeeksforGeeks](https://www.geeksforgeeks.org/prims-mst-for-adjacency-list-representation-greedy-algo-6/)   
 
-**Time Complexity : for brute force time complexity is O(V^2) and for efficient solution time complexity is O(V logV)**   
+**Time Complexity : for brute force time complexity is O(V^2) and for efficient solution time complexity is O(E logV)**   
