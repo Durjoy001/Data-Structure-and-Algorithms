@@ -41,6 +41,7 @@ public:
         //number of diagonal in a n*n matrix is 2*n - 1
         vector<int> leftRow(n, 0), upperDiagonal(2 * n - 1, 0), lowerDiagonal(2 * n - 1, 0); 
         //every column has to one queen and every row has to one queen
+        //here we fill queen in boards coloumn wise,after finishing 1st column then we move to 2nd coloumn.we can also did this by row wise.
         solve(0,ans,board,leftRow,upperDiagonal,lowerDiagonal,n);//here 0 is for coloumn 0
         return ans;
     }
