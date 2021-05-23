@@ -1,4 +1,6 @@
 //https://leetcode.com/problems/n-queens/submissions/
+//https://www.youtube.com/watch?v=i05Ju7AftcM
+//https://www.youtube.com/watch?v=yvt0emtFiIE
 
 class Solution {
 public:
