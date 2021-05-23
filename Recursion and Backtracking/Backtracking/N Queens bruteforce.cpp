@@ -52,6 +52,7 @@ public:
             board[i] = s;
         }
         //every column has to one queen and every row has to one queen
+        ////here we fill queen in boards coloumn wise,after finishing 1st column then we move to 2nd coloumn ans so on.we can also did this by row wise.
         solve(0,ans,board,n);//here 0 is for coloumn 0
         return ans;
     }
