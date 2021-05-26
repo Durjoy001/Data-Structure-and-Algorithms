@@ -10,3 +10,6 @@ This data structure provide us two different operation :
 into a single component.**   
 
 **Time Complexity for each operation : O(4 * alpha) which is equivalent to O(4) , almost constant time operation.**
+
+[GeeksforGeeks](https://www.geeksforgeeks.org/union-find/)   
+[GeeksforGeeks](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/)   
