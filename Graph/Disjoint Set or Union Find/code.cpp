@@ -24,6 +24,8 @@ void union(int u,int v){
     /*lesser rank parrent node get connected to higher rank parrent node. When rank is different then no need to 
     increase the rank.When we attach two simmilar rank node then only have to increase rank by one(only
     parrent node rank will increase.)*/
+    
+    //The idea is to always attach smaller depth(rank) tree under the root of the deeper tree. This technique is called union by rank.
     if(rank[u] < rank[v]){
         parent[u] = v;
     }
