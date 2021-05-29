@@ -1,8 +1,7 @@
-# Introduction to pointers in C/C++  
-https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=2&t=0s  
+### [Introduction to pointers in C/C++  ](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=2&t=0s)    
 can we know the address of a variable in our program? Or can we operate upon these memory addresses in our program?    
 yes, you can do so in a C or C++ program, using the concept of pointers.       
-# Pointers are variables that store the address of another variable.   
+### Pointers are variables that store the address of another variable.   
      int a=4;  
      int *p;   (pointer to int) (We need an integer pointer variable to store the address of an integer)    
      p = &a;   (Now, this variable 'p' can store the address of 'a') 
@@ -18,8 +17,7 @@ yes, you can do so in a C or C++ program, using the concept of pointers.
        
 So if we try to print a pointer variable without asterisk ( * ) sign, or operate upon it without asterisk ( * ) sign, we are operating with the address.  
 While if we put the asterisk ( * ) sign in front of the pointer variable, and operate upon it then we are operating the value at that address.   
-# Pointers to Pointers  
-https://www.youtube.com/watch?v=d3kd5KbGB48&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=4  
+### [Pointers to Pointers](https://www.youtube.com/watch?v=d3kd5KbGB48&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_&index=4)   
  * why pointer variables are strongly typed? why do we need a pointer to integer to reference or store the address of an integer?  
    * ANS: it is because we don't just store the address of a variable in a pointer variable we also use the pointer variable to dereference the address &
      write some value there.(modifie and get the value in that address)  
