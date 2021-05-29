@@ -36,13 +36,13 @@ int main()
         adj[v].push_back(u);
     }
     vector<int>tin(V,-1);//time of insertion
-    vector<int>low(V,-1);//lowest insertion time among all its adjacent
+    vector<int>low(V,-1);//lowest insertion time among all its adjacent node
     vector<int>vis(V,0);
     vector<int>isArticulation(V,0);//ans array
     int timer = 0;
     for(int i=0;i<V;i++){
         if(!vis[i]){
-            dfs(i,-1,vis,tin,low,timer,adj,isArticulation); 
+            dfs(i,-1,vis,tin,low,timer,adj,isArticulation); //-1 for parent of this sorce node
         }
     }
     for(int i=0;i<V;i++){
